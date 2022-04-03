@@ -1,10 +1,10 @@
 html,
 body {
-  padding: 90px 20px 0;
+  padding: 90px 0px 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-    background-color: black;
+    background-color: white;
 }
 
 a {
@@ -13,7 +13,12 @@ a {
 
 * {
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
+}
+
+ul{
+  list-style: none;
 }
 
 @media (max-width: 768px){
@@ -27,4 +32,7 @@ a {
   --header_logo_color: rgb(100,100,100);
   --header_hover_color: rgb(3, 154, 255) ;
   --header_hover_alpha: rgba(3, 154, 255, 0.3);
+
+
+  --footer_back_color: rgb(17, 9, 121);
 }

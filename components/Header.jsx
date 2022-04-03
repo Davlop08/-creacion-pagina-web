@@ -1,31 +1,64 @@
 import styles from '../styles/Header.module.css'
 import Link from 'next/link'
 import Image from 'next/image'
-import Header_content from './Header_content'
+import {useState} from 'react'
 
 export default function Header() {
+
+    const[toggle, setToggle] = useState(styles.nav_menu_visible)
+
     return (
-        <header>
-            <nav className={styles.navContainer}>
-                <div className= {styles.div_nav_container}>
+        <header className={styles.header}>
+            <nav className={styles.nav}>
                     <Link href="/">
-                        <a className={styles.a_logo}>
-                            <Image className={styles.logo_img} src="/favicon.ico" alt="logo" height={60} width={60}/>
-                            <span className={styles.logo_span}>Diseño Web</span>
+                        <a className={styles.nav_link}>
+                            <span className={styles.logo}>Logo</span>
                         </a>
                     </Link>
-        
-                    <Header_content 
-                        styleContainer={styles.elements_container} 
-                        styleList={styles.elements_list}
-                        styleLi={styles.list_li} 
-                        styleElements={styles.elements}/>
-                </div>
+
+                    <button className={toggle, styles.toggle} onClick={()=>{
+
+                        const data = document.querySelector("#nav_menu")
+                        data.classList.toggle(styles.nav_menu_visible)
+                    }}>
+                        <Image className={styles.toggle_img} src="/iconos/barras menu.png" width={30} height={30} alt="Menu"></Image>
+                    </button>
+                        
+                    <ul id="nav_menu" className={styles.nav_menu}>
+                        <li className={styles.nav_menu_item}>
+                            <Link href="/">
+                                <a className={styles.nav_link}>
+                                    <span className={styles.nav_menu_link}>Inicio</span>
+                                </a>
+                            </Link>
+                        </li>
+
+                        <li className={styles.nav_menu_item}>
+                            <Link href="/">
+                                <a className={styles.nav_link}>
+                                    <span className={styles.nav_menu_link}>Contacto</span>
+                                </a>
+                            </Link>
+                        </li>
+
+                        <li className={styles.nav_menu_item}>
+                            <Link href="/">
+                                <a className={styles.nav_link}>
+                                    <span className={styles.nav_menu_link}>Desarrollo Web</span>
+                                </a>                            
+                            </Link>
+                        </li>
+
+                        <li className={styles.nav_menu_item}>
+                            <Link href="/">
+                                <a className={styles.nav_link}>
+                                    <span className={styles.nav_menu_link}>Nosotros</span>
+                                </a>                            
+                            </Link>
+                        </li>
+                    </ul>             
             </nav>
         </header>
     )
 }
 
-Header.defaultProps = {
-    headerContent: "agregar contenido al header"
-}

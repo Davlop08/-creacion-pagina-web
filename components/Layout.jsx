@@ -3,6 +3,7 @@ import Main from "../components/Main"
 import Footer from "../components/Footer"
 import { Fragment } from "react"
 import Head from "next/head"
+import Image from "next/image"
 
 export default function Layout({title, metaDescription}) {
     return (
@@ -10,11 +11,11 @@ export default function Layout({title, metaDescription}) {
 
             <Head>
                 <title>{title}</title>
-                <meta name="description" content={metaDescription} />
+                <meta name="description" content={metaDescription}/>
             </Head>
 
             <Header>
-
+                
             </Header>
 
             <Main>

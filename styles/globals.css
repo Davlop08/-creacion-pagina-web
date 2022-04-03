@@ -1,18 +1,29 @@
 html,
 body {
-  padding: 0;
+  padding: 90px 20px 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    background-color: black;
 }
 
 a {
   color: inherit;
-  text-decoration: none;
 }
 
 * {
+  margin: 0;
   box-sizing: border-box;
-  text-decoration: none;
-  list-style: none;
+}
+
+@media (max-width: 768px){
+  body{
+      padding-top: 70px;
+  } 
+}
+
+:root{
+  --header_back_color: rgb(255, 255, 255);
+  --header_logo_color: rgb(100,100,100);
+  --header_hover_color: rgb(220, 138, 15) ;
 }

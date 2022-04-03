@@ -22,7 +22,7 @@
 .logo{
     display: flex;
     font-size: 2em;
-    font-weight: bold;
+    font-weight: 600;
     padding: 0 12px;
     line-height: 80px;
     flex-wrap: nowrap;
@@ -54,7 +54,7 @@
 
 .nav_menu_link:hover{
     color: var(--header_hover_color);
-    box-shadow: 0px 4px 0 rgba(220, 138, 15, 0.3);
+    box-shadow: 0px 4px 0 var(--header_hover_alpha);
     border-radius: none;
 }
 

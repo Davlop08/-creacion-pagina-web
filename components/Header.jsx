@@ -12,7 +12,7 @@ export default function Header() {
             <nav className={styles.nav}>
                     <Link href="/">
                         <a className={styles.nav_link}>
-                            <span className={styles.logo}>Logo</span>
+                            <span className={styles.logo}>Soluciones Web</span>
                         </a>
                     </Link>
 

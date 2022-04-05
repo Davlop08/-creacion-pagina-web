@@ -4,7 +4,7 @@ import Link from "next/link"
 import { Fragment } from "react"
 import HeadMeta from "../components/HeadMeta"
 import Image from "next/image"
-
+import classNames from 'classnames'
 export default function Home() {
   return (
 
@@ -42,47 +42,50 @@ export default function Home() {
             <h2 className={styles.experiences_title}>Modificar titulo 1</h2>
             <div className={styles.experiences_grid}>
 
-              <div className={styles.empty}>
+              <div className={styles.experience + ' ' + styles.experience_1}>
+                <div className={styles.experience_description}>
+                  texto 1
+                </div>
+              </div>
+
+              <div className={styles.empty + ' ' + styles.empty_1}>
                 <Image src="/imagenes/238.jpg" height={300} width={300} alt="imagen"/>
               </div>
-              <div className={styles.line}></div>
+              {/* <div className={styles.line}></div> */}
 
-              <div className={styles.experience}>
+
+              <div className={styles.experience + ' ' + styles.experience_2}>
                 <div className={styles.experience_description}>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod facere neque dolorem natus nulla sed laudantium fugiat voluptatem nesciunt minus.
+                texto 2
                 </div>
               </div>
 
-              <div className={styles.experience}>
-                <div className={styles.experience_description}>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod facere neque dolorem natus nulla sed laudantium fugiat voluptatem nesciunt minus.
-                </div>
-              </div>
-
-              <div className={styles.line}></div>
-              <div className={styles.empty}>
+              <div className={styles.empty + ' ' + styles.empty_2}>
                 <Image src="/imagenes/238.jpg" height={300} width={300} alt="imagen"/>
               </div>
+              {/* <div className={styles.line}></div> */}
 
-              <div className={styles.empty}>
+              <div className={styles.experience + ' ' + styles.experience_3}>
+                <div className={styles.experience_description}>
+                texto 3
+                </div>
+              </div>
+
+              <div className={styles.empty + ' ' + styles.empty_3}>
                 <Image src="/imagenes/238.jpg" height={300} width={300} alt="imagen"/>
               </div>
-              <div className={styles.line}></div>
+              {/* <div className={styles.line}></div> */}
 
-              <div className={styles.experience}>
+            
+
+              <div className={styles.experience + ' ' + styles.experience_4}>
                 <div className={styles.experience_description}>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod facere neque dolorem natus nulla sed laudantium fugiat voluptatem nesciunt minus.
+                texto 4
                 </div>
               </div>
 
-              <div className={styles.experience}>
-                <div className={styles.experience_description}>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod facere neque dolorem natus nulla sed laudantium fugiat voluptatem nesciunt minus.
-                </div>
-              </div>
-
-              <div className={styles.line}></div>
-              <div className={styles.empty}>
+              {/* <div className={styles.line}></div> */}
+              <div className={styles.empty + ' ' + styles.empty_4}>
                 <Image src="/imagenes/238.jpg" height={300} width={300} alt="imagen"/>
               </div>
             </div>

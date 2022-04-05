@@ -42,50 +42,51 @@ export default function Home() {
             <h2 className={styles.experiences_title}>Modificar titulo 1</h2>
             <div className={styles.experiences_grid}>
 
-            <div className={styles.empty}>
-              <Image src="/imagenes/238.jpg" height={300} width={300} alt="imagen"/>
-            </div>
-            <div className={styles.line}></div>
-              <div className={styles.experience}>
-                <div className={styles.experience_description}>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod facere neque dolorem natus nulla sed laudantium fugiat voluptatem nesciunt minus.
-                </div>
-              </div>
-
-              <div className={styles.experience}>
-                <div className={styles.experience_description}>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod facere neque dolorem natus nulla sed laudantium fugiat voluptatem nesciunt minus.
-                </div>
-                </div>
-                <div className={styles.line}></div>
-                <div className={styles.empty}>
-                  <Image src="/imagenes/238.jpg" height={300} width={300} alt="imagen"/>
-                </div>
-
-                <div className={styles.empty}>
-                  <Image src="/imagenes/238.jpg" height={300} width={300} alt="imagen"/>
-                </div>
-                <div className={styles.line}></div>
-                <div className={styles.experience}>
-                  <div className={styles.experience_description}>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod facere neque dolorem natus nulla sed laudantium fugiat voluptatem nesciunt minus.
-                  </div>
-                </div>
-                  
-                <div className={styles.experience}>
-                <div className={styles.experience_description}>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod facere neque dolorem natus nulla sed laudantium fugiat voluptatem nesciunt minus.
-                </div>
+              <div className={styles.empty}>
+                <Image src="/imagenes/238.jpg" height={300} width={300} alt="imagen"/>
               </div>
               <div className={styles.line}></div>
-                <div className={styles.empty}>
-                  <Image src="/imagenes/238.jpg" height={300} width={300} alt="imagen"/>
+
+              <div className={styles.experience}>
+                <div className={styles.experience_description}>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod facere neque dolorem natus nulla sed laudantium fugiat voluptatem nesciunt minus.
                 </div>
+              </div>
+
+              <div className={styles.experience}>
+                <div className={styles.experience_description}>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod facere neque dolorem natus nulla sed laudantium fugiat voluptatem nesciunt minus.
+                </div>
+              </div>
+
+              <div className={styles.line}></div>
+              <div className={styles.empty}>
+                <Image src="/imagenes/238.jpg" height={300} width={300} alt="imagen"/>
+              </div>
+
+              <div className={styles.empty}>
+                <Image src="/imagenes/238.jpg" height={300} width={300} alt="imagen"/>
+              </div>
+              <div className={styles.line}></div>
+
+              <div className={styles.experience}>
+                <div className={styles.experience_description}>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod facere neque dolorem natus nulla sed laudantium fugiat voluptatem nesciunt minus.
+                </div>
+              </div>
+
+              <div className={styles.experience}>
+                <div className={styles.experience_description}>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod facere neque dolorem natus nulla sed laudantium fugiat voluptatem nesciunt minus.
+                </div>
+              </div>
+
+              <div className={styles.line}></div>
+              <div className={styles.empty}>
+                <Image src="/imagenes/238.jpg" height={300} width={300} alt="imagen"/>
+              </div>
             </div>
           </div>
-
-
-
         </section>
 
         {/* <div className={styles.description_container}>

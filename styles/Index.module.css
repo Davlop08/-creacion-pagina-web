@@ -92,6 +92,7 @@
     margin: 0 auto;
 }
 
+
 @media (min-width: 864px){
     
     .experiences_title{
@@ -117,13 +118,10 @@
         grid-template-columns: 1fr 2px 1fr;
         padding: 70px;
         justify-content: center;
+        place-items: center;
         max-width: 864px;
         margin: 0 auto;
     }
-
-    /* .line{
-        background-color: white;
-    } */
 }
 
 

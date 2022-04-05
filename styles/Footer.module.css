@@ -25,7 +25,6 @@
     text-transform: capitalize;
     margin-bottom: 30px;
     position: relative;
-    background-color: red;
 }
 
 .footer_col_h4::before{
@@ -33,10 +32,10 @@
     position: absolute;
     left: 0;
     bottom: -10px;
-    background-color: #e91e63;
+    background-color: var(--footer_separator_color);
     height: 2px;
     box-sizing: border-box;
-    width: 50px;
+    width: 80px;
 }
 
 .footer_col_ul_li:not(:last-child){
@@ -46,15 +45,15 @@
 .footer_col_ul_a{
     font-size: 16px;
     text-transform: capitalize;
-    color: #ffffff;
+    color: var(--footer_anchor_color);
     text-decoration: none;
     font-weight: 300;
     display: block;
-    transition: all .2s ease;
+    transition: all .1s ease;
 }
 
 .footer_col_ul_a:hover{
-    color: #ffffff;
+    color: var(--footer_anchor_color);
     padding-left: 8px;
 }
 

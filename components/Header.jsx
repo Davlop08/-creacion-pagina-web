@@ -12,7 +12,7 @@ export default function Header() {
             <nav className={styles.nav}>
                     <Link href="/">
                         <a className={styles.nav_link}>
-                            <span className={styles.logo}>Soluciones Web</span>
+                            <span className={styles.logo}>Diseño Web</span>
                         </a>
                     </Link>
 
@@ -20,6 +20,7 @@ export default function Header() {
 
                         const data = document.querySelector("#nav_menu")
                         data.classList.toggle(styles.nav_menu_visible)
+
                     }}>
                         <Image className={styles.toggle_img} src="/iconos/barras menu.png" width={30} height={30} alt="Menu"></Image>
                     </button>
@@ -36,7 +37,7 @@ export default function Header() {
                         <li className={styles.nav_menu_item}>
                             <Link href="/">
                                 <a className={styles.nav_link}>
-                                    <span className={styles.nav_menu_link}>Contacto</span>
+                                    <span className={styles.nav_menu_link}>Precios</span>
                                 </a>
                             </Link>
                         </li>
@@ -52,7 +53,7 @@ export default function Header() {
                         <li className={styles.nav_menu_item}>
                             <Link href="/">
                                 <a className={styles.nav_link}>
-                                    <span className={styles.nav_menu_link}>Nosotros</span>
+                                    <span className={styles.nav_menu_link}>Contacto</span>
                                 </a>                            
                             </Link>
                         </li>

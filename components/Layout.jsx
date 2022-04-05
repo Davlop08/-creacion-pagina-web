@@ -5,26 +5,18 @@ import { Fragment } from "react"
 import Head from "next/head"
 import Image from "next/image"
 
-export default function Layout({title, metaDescription}) {
-    return (
+export default function Layout({children}) {
+    return (   
+
         <Fragment>
 
-            <Head>
-                <title>{title}</title>
-                <meta name="description" content={metaDescription}/>
-            </Head>
-
-            <Header>
-                
-            </Header>
+            <Header/>
 
             <Main>
-
+                {children}
             </Main>
 
-            <Footer>
-
-            </Footer>
+            <Footer/>
 
         </Fragment>
     )

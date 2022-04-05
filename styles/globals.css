@@ -1,10 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
 html,
 body {
-  padding: 90px 0px 0;
+  padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
     background-color: white;
+    font-family: 'Roboto', sans-serif;
+
 }
 
 a {
@@ -23,7 +27,7 @@ ul{
 
 @media (max-width: 768px){
   body{
-      padding-top: 70px;
+      padding-top: 0px;
   } 
 }
 
@@ -34,5 +38,11 @@ ul{
   --header_hover_alpha: rgba(3, 154, 255, 0.3);
 
 
-  --footer_back_color: rgb(17, 9, 121);
+  --footer_back_color: rgb(0, 0, 0);
+  --footer_title_color: rgb(255,255,255);
+  --footer_separator_color: rgb(255,0,0);
+  --footer_anchor_color: rgb(250,250,250);
+
+
+  --index_presentation_color: rgb(255,255,255);
 }

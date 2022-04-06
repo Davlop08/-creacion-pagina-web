@@ -16,7 +16,7 @@ export default function Header() {
                         </a>
                     </Link>
 
-                    <button className={toggle, styles.toggle} onClick={()=>{
+                    <button className={toggle, styles.toggle} aria-label="menú" onClick={()=>{
 
                         const data = document.querySelector("#nav_menu")
                         data.classList.toggle(styles.nav_menu_visible)

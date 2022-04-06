@@ -4,7 +4,6 @@ import Link from "next/link"
 import { Fragment } from "react"
 import HeadMeta from "../components/HeadMeta"
 import Image from "next/image"
-import classNames from 'classnames'
 export default function Home() {
   return (
 
@@ -37,6 +36,10 @@ export default function Home() {
           </div>
         </div>
 
+          <div className={styles.separator}>
+            
+          </div>
+
         <section className={styles.experiences}>
           <div className={styles.experiences_body}>
             <h2 className={styles.experiences_title}>Modificar titulo 1</h2>
@@ -44,59 +47,67 @@ export default function Home() {
 
               <div className={styles.experience + ' ' + styles.experience_1}>
                 <div className={styles.experience_description}>
-                  texto 1
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla repudiandae debitis ipsa eligendi autem tempora recusandae inventore suscipit molestias tenetur.
                 </div>
               </div>
-
-              <div className={styles.empty + ' ' + styles.empty_1}>
-                <Image src="/imagenes/238.jpg" height={300} width={300} alt="imagen"/>
-              </div>
-              {/* <div className={styles.line}></div> */}
+              
+              <Link href="/">
+                <a className={styles.pages_radius}>
+                  <div className={styles.empty + ' ' + styles.empty_1}>
+                    <Image src="/imagenes/238.jpg" height={300} width={300} alt="imagen"/>
+                  </div>
+                </a>
+              </Link>
 
 
               <div className={styles.experience + ' ' + styles.experience_2}>
                 <div className={styles.experience_description}>
-                texto 2
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat laborum asperiores doloremque ad placeat ex odit quod eos, autem vitae ut ipsam aliquid ab quae.
                 </div>
               </div>
 
-              <div className={styles.empty + ' ' + styles.empty_2}>
-                <Image src="/imagenes/238.jpg" height={300} width={300} alt="imagen"/>
-              </div>
-              {/* <div className={styles.line}></div> */}
+              <Link href="/">
+                  <a className={styles.pages_radius}>
+                    <div className={styles.empty + ' ' + styles.empty_2}>
+                      <Image src="/imagenes/238.jpg" height={300} width={300} alt="imagen"/>
+                    </div>
+                  </a>
+              </Link>
 
               <div className={styles.experience + ' ' + styles.experience_3}>
                 <div className={styles.experience_description}>
-                texto 3
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum rerum perferendis odit, et illo architecto.
                 </div>
               </div>
 
-              <div className={styles.empty + ' ' + styles.empty_3}>
-                <Image src="/imagenes/238.jpg" height={300} width={300} alt="imagen"/>
-              </div>
-              {/* <div className={styles.line}></div> */}
-
+              <Link href="/">
+                  <a className={styles.pages_radius}>
+                    <div className={styles.empty + ' ' + styles.empty_3}>
+                      <Image src="/imagenes/238.jpg" height={300} width={300} alt="imagen"/>
+                    </div>
+                  </a>
+              </Link>
             
 
               <div className={styles.experience + ' ' + styles.experience_4}>
                 <div className={styles.experience_description}>
-                texto 4
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda tenetur aliquam esse incidunt. Eaque reiciendis vitae doloremque tenetur et! Eveniet unde ex soluta accusantium aut dolore culpa eius optio assumenda.
                 </div>
               </div>
 
-              {/* <div className={styles.line}></div> */}
-              <div className={styles.empty + ' ' + styles.empty_4}>
-                <Image src="/imagenes/238.jpg" height={300} width={300} alt="imagen"/>
-              </div>
+              <Link href="/">
+                  <a className={styles.pages_radius}>
+                    <div className={styles.empty + ' ' + styles.empty_4}>
+                      <Image src="/imagenes/238.jpg" height={300} width={300} alt="imagen"/>
+                    </div>
+                  </a>
+              </Link>
+
+
             </div>
           </div>
         </section>
 
-        {/* <div className={styles.description_container}>
-          <p className={styles.description_text}>
-          En una era digital, tener presencia online ha pasado de ser un lujo a ser una necesidad, ya que podemos mostrar nuestros productos o servicios a clientes potenciales, ofreciéndoles la posibilidad de acceder a la información de nuestro negocio las 24 horas y en un rango más amplio al que tenemos en el espacio físico.
-          </p>
-        </div> */}
       </Layout>
     </Fragment>
 

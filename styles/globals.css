@@ -45,4 +45,6 @@ ul{
 
 
   --index_presentation_color: rgb(255,255,255);
+  --index_pages_border_color: rgba(53, 30, 157, 0.75);
+  --index_pages_background: rgb(3, 154, 255);
 }

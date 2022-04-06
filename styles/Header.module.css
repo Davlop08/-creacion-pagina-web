@@ -11,7 +11,7 @@
 .nav{
     display: flex;
     justify-content: space-between;
-    max-width: 992px;
+    max-width: 1300px;
     margin: 0 auto;
 }
 

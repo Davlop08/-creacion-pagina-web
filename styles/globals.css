@@ -16,6 +16,7 @@ a {
 }
 
 * {
+  text-decoration: none;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -47,4 +48,6 @@ ul{
   --index_presentation_color: rgb(255,255,255);
   --index_pages_border_color: rgba(53, 30, 157, 0.75);
   --index_pages_background: rgb(3, 154, 255);
+  --index_cards_back1: rgba(194,250,254,1);
+  --index_cards_back2: rgba(0, 102, 170,1);
 }

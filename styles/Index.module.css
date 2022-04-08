@@ -17,8 +17,7 @@
     max-width: 2560px;
     margin: 0 auto auto auto;
     align-content: space-around; 
-    background-image: url("../public/imagenes/portrait.jpg");
-    background-position: center;
+    background: linear-gradient(160deg, rgb(255, 217, 0) 50%, rgb(94, 64, 0) 55%);    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     padding: 0px 0px;
@@ -119,7 +118,6 @@
 .experience_title_1{
     font-size: 25px;
     text-align: center;
-    /* padding: 20px 0; */
     margin-bottom: 20px;
 }
 .experience_title_2{
@@ -154,15 +152,10 @@
     margin: 0 auto;
 }
 
-/* .pages_radius span{
-    box-shadow: 0px 0px 18px 2px var(--index_pages_border_color);
-    border-radius: 10%;
-} */
-
 .empty_1,.empty_2, .empty_3, .empty_4{
     display: flex;
     box-shadow: 0px 0px 18px 2px var(--index_pages_border_color);
-    background-color: rgba(194,250,254,1);
+    background: linear-gradient(var(--index_cards_back1), var(--index_cards_back2));
     border-radius: 10%;
     height: 300px;
     width: 300px;
@@ -175,7 +168,72 @@
     object-fit:contain;
 }
 
+.empty{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
 
+
+.card_info{
+    display: flex;
+    flex-direction: column;
+    color: var(--index_presentation_color);
+    font-size: 25px;
+    text-align: center;
+    transition: all .2s ease;
+    font-weight: bold;
+    border-top: 2px solid var(--index_presentation_color);
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+
+
+/*--------------------------------Animation-----------------------------------------------------*/
+
+.pages_radius .empty_1 img{
+    animation-name: img_page_animation;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate;
+}
+.pages_radius .empty_2 img{
+    animation-name: img_page_animation_2;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.pages_radius .empty_3 img{
+    animation-name: img_page_animation;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.pages_radius .empty_4 img{
+    animation-name: img_page_animation_2;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes img_page_animation {
+    0%{transform: rotate(0deg) scale(1);}
+    100%{transform: rotate(8deg) scale(0.8);}
+}
+
+@keyframes img_page_animation_2 {
+    0%{transform: rotate(0deg) scale(1);}
+    100%{transform: rotate(-8deg) scale(0.8);}
+}
+
+/*-----------------------------------------------------------------------------------------------*/
 
 @media (min-width: 864px){
     
@@ -221,6 +279,15 @@
     .empty_1{
         grid-area: img1;
     }
+
+    .empty_1:hover, 
+    .empty_2:hover, 
+    .empty_3:hover, 
+    .empty_4:hover{
+        box-shadow: 0px 0px 18px 7px var(--index_pages_border_color);
+
+    }
+
     .empty_2{
         grid-area: img2;
     }
@@ -232,18 +299,57 @@
     }
 
     .pages_radius img{
-        /* overflow: hidden; */
         transition: all .2s ease;
-
     }
 
-    .pages_radius:hover img{
-        transform: scale(1.1);
+    .empty{
+        display: flex;
+        flex-direction: column;
+        transition: all .2s ease;
+        position: relative;
     }
+
+    .pages_radius .empty img{
+        animation-iteration-count: initial;
+    }
+
+
+    .pages_radius:hover .empty_1 img{
+        animation-name: img_page_animation;
+        animation-timing-function: ease-in-out;
+        animation-duration: 1.5s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+    .pages_radius:hover .empty_2 img{
+        animation-name: img_page_animation_2;
+        animation-timing-function: ease-in-out;
+        animation-duration: 1.5s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+
+    .pages_radius:hover .empty_3 img{
+        animation-name: img_page_animation;
+        animation-timing-function: ease-in-out;
+        animation-duration: 1.5s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+
+    .pages_radius:hover .empty_4 img{
+        animation-name: img_page_animation_2;
+        animation-timing-function: ease-in-out;
+        animation-duration: 1.5s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+
+    .empty:hover .card_info{
+        background-color: transparent;
+    }
+
 }
-
-
-
 
 /*----------------------------------------------------------------------------------*/
 
@@ -279,7 +385,6 @@
 @media (max-width: 864px){
     .container_presentation{
         font-size: 1em;
-        /* margin-top: 60px; */
     }
 
 }

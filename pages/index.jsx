@@ -46,9 +46,13 @@ export default function Home() {
             <div className={styles.experiences_grid}>
 
               <div className={styles.experience + ' ' + styles.experience_1}>
-                <h4 className={styles.experience_title_1}>Pagina web simple</h4>
+                <h4 className={styles.experience_title_1}>Sitios Web</h4>
                 <div className={styles.experience_description}>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla repudiandae debitis ipsa eligendi autem tempora recusandae inventore suscipit molestias tenetur.
+                  <p>Sitios que se adaptan a tus necesidades, ya sea que necesites un Portfolio, una Landing Page, o 
+                    sitios más complejos con varias secciones como un sitio institucional, Tienda Online o 
+                    sitios completamente a medida, en Lorem Designs tenemos modelos únicos y completamente personalizables
+                    de los que podes elegir!
+                  </p>
                 </div>
               </div>
               
@@ -66,9 +70,14 @@ export default function Home() {
 
 
               <div className={styles.experience + ' ' + styles.experience_2}>
-                <h4 className={styles.experience_title_2}>Sitio web básico</h4>
+                <h4 className={styles.experience_title_2}><strong>Publicidad en Google</strong></h4>
                 <div className={styles.experience_description}>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat laborum asperiores doloremque ad placeat ex odit quod eos, autem vitae ut ipsam aliquid ab quae.
+                  <p>
+                    Aunque todas nuestras páginas se encuentran optimizadas para un mejor posicionamiento orgánico, 
+                    para nadie es un secreto que la publicidad pagada en Google permite llegar a un público mayor 
+                    y más objetivo, ya que de esta manera se llegan a potenciales clientes
+                    que realizan busquedas relacionadas con los servicios que USTED ofrece
+                  </p>
                 </div>
               </div>
 

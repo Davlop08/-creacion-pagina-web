@@ -190,6 +190,7 @@
 
 
 
+
 /*--------------------------------Animation-----------------------------------------------------*/
 
 .pages_radius .empty_1 img{
@@ -232,6 +233,35 @@
     0%{transform: rotate(0deg) scale(1);}
     100%{transform: rotate(-8deg) scale(0.8);}
 }
+
+
+.container_secondary{
+    width: 100%;
+    height: auto;
+    background-color: #FFFFFFFF;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.container_secondary_info{
+    text-align: center;
+    max-width: 1100px;
+    color: var(--header_logo_color);
+    padding: 0 10px;
+}
+
+.container_secondary_info h3{
+    font-size: 3em;
+    padding-bottom: 30px;
+    color: var(--header_hover_color);
+}
+
+.container_secondary_info p {
+    font-size: 1.4em;
+    font-weight: 500;
+}
+
 
 /*-----------------------------------------------------------------------------------------------*/
 

@@ -94,9 +94,13 @@ export default function Home() {
               </Link>
 
               <div className={styles.experience + ' ' + styles.experience_3}>
-                <h4 className={styles.experience_title_3}>Tienda en línea</h4>
+                <h4 className={styles.experience_title_3}>Mantenimiento de Web</h4>
                 <div className={styles.experience_description}>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum rerum perferendis odit, et illo architecto.
+                  <p>
+                    ¿Tenés una web y queres actualizarla, o no tenés tiempo para administrarla? 
+                    Dejanos el trabajo a nosotros y obtené mejoras en el SEO de tu web, mejor rendimiento, actualización
+                    de textos o imágenes y demás, ofreciendo una mejor experiencia de usuario a tus clientes! 
+                  </p>
                 </div>
               </div>
 
@@ -105,7 +109,7 @@ export default function Home() {
                     <div className={styles.empty + ' ' + styles.empty_3}>
                       <Image src="/imagenes/comerce_site.png" height={250} width={250} alt="imagen"/>
                       <div className={styles.card_info}>
-                        <h5>Desde $10.000</h5>
+                        <h5>Desde $2000/mes</h5>
                         <p>Ver más</p>                  
                       </div>
                     </div>
@@ -138,6 +142,28 @@ export default function Home() {
         </section>
 
       <div className={styles.separator_bottom}></div>
+
+      <div className={styles.container_secondary}>
+        <div className={styles.container_secondary_info}>
+          <h3>¿Por qué tener un <strong>Sitio Web?</strong></h3>
+          <p>
+            Hoy en día una página no es solamente un adorno, sino una herramienta que te ayuda a potenciar tu negocio,
+            ya que cuando una persona está interesada en comprar algo o contratar algún servicio, lo primero que hace es buscarlo
+            en internet. También extendés las posibilidades de tu negocio, ya que los potenciales clientes podrán ver tus 
+            productos o servicios las 24 horas los 365 días del año, y en un rango mucho más amplio del que lo haría el negocio físico.
+            También te ayuda a generar confianza en el cliente, ya que el podrá ver información sobre tu negocio y tendrá una amplia
+            variedad de canales de contacto en los que podrá sacar sus dudas y generar una posible venta.
+            </p>
+            <p>Es por esto que te ofrecemos páginas atractivas y optimizadas para todos los dispositivos, 
+              para que tus clientes tengan una buena experiencia de uso y se animen a adquirir tus productos o servicios, 
+              comunicate con nosotros para tener una atención personalizada a través de WhatsApp o mandanos un mensaje en el siguiente
+              formulario
+            </p>
+        </div>
+
+        
+
+      </div>
       </Layout>
     </Fragment>
 

@@ -4,6 +4,7 @@ import Link from "next/link"
 import { Fragment } from "react"
 import HeadMeta from "../components/HeadMeta"
 import Image from "next/image"
+import ContactForm from "../components/ContactForm"
 export default function Home() {
   return (
 
@@ -143,7 +144,15 @@ export default function Home() {
 
       <div className={styles.separator_bottom}></div>
 
-      <div className={styles.container_secondary}>
+      <section className={styles.container_title_contact}>
+        <div className={styles.title_contact}>
+          <h4>Recibí asesoramiento gratuito a través de WhatsApp o del siguiente formulario</h4>
+        </div>
+      </section>
+
+      <ContactForm/>
+
+      <section className={styles.container_secondary}>
         <div className={styles.container_secondary_info}>
           <h3>¿Por qué tener un <strong>Sitio Web?</strong></h3>
           <p>
@@ -155,15 +164,11 @@ export default function Home() {
             variedad de canales de contacto en los que podrá sacar sus dudas y generar una posible venta.
             </p>
             <p>Es por esto que te ofrecemos páginas atractivas y optimizadas para todos los dispositivos, 
-              para que tus clientes tengan una buena experiencia de uso y se animen a adquirir tus productos o servicios, 
-              comunicate con nosotros para tener una atención personalizada a través de WhatsApp o mandanos un mensaje en el siguiente
-              formulario
+              para que tus clientes tengan una buena experiencia de uso y se animen a adquirir tus productos o servicios
             </p>
         </div>
+      </section>
 
-        
-
-      </div>
       </Layout>
     </Fragment>
 

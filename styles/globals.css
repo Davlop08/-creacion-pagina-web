@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
 
 html,
 body {
@@ -6,8 +7,8 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-    background-color: white;
-    font-family: 'Roboto', sans-serif;
+    background-color: var(--body_background);
+    font-family: 'Bree Serif', sans-serif;
 
 }
 
@@ -50,4 +51,9 @@ ul{
   --index_pages_background: rgb(3, 154, 255);
   --index_cards_back1: rgba(194,250,254,1);
   --index_cards_back2: rgba(0, 102, 170,1);
+  --index_input_back: rgb(250,250,250);
+  --index_form_back: rgb(255, 255, 255);
+  
+
+  --body_background: rgb(255,255,255);
 }

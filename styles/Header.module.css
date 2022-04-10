@@ -6,7 +6,8 @@
     top: 0;
     left: 0;
     z-index: 1000;
-    border-bottom: 1px solid var(--header_logo_color);
+    border-bottom: 1px solid rgb(220, 220, 220);
+    
 }
 
 .nav{

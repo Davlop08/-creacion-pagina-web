@@ -43,7 +43,7 @@ export default function Header() {
                         </li>
 
                         <li className={styles.nav_menu_item}>
-                            <Link href="/">
+                            <Link href="/paginas">
                                 <a className={styles.nav_link}>
                                     <span className={styles.nav_menu_link}>Desarrollo Web</span>
                                 </a>                            

@@ -41,10 +41,11 @@ export default function ContactForm() {
                 </span>
             </div>
 
-                <label htmlFor="numero" className={styles.labels}>Teléfono (opcional)</label>
+                <label htmlFor="numero" className={styles.labels}>Teléfono*</label>
             <div className={styles.form_name_container}>
-                <input type="tel" className={styles.form_number} name="numero" placeholder="entre 6 y 15 números"
-                {...register('numero', {required: {value: true, message: "numero requerido"}, pattern: {value: /^[0-9]+$/, message: "Solo se aceptan números"}})}/>
+                <input type="tel" className={styles.form_number} name="numero" placeholder="entre 6 y 15 números" maxLength={15}
+                {...register('numero', {required: {value: true, message: "numero requerido"}, pattern: {value: /^[0-9]{6,15}$/
+                    , message: "Entre 6 y 15 dígitos sin letras ni caracteres especiales"}})}/>
                 <span className={styles.error_span}>
                     {errors?.numero?.message}
                 </span>

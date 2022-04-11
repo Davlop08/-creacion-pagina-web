@@ -77,6 +77,8 @@
 
 .error_span{
     color: red;
+    text-align: center;
+    max-width: 250px;
 }
 
 

@@ -163,6 +163,7 @@ export default function Home() {
             También te ayuda a generar confianza en el cliente, ya que el podrá ver información sobre tu negocio y tendrá una amplia
             variedad de canales de contacto en los que podrá sacar sus dudas y generar una posible venta.
             </p>
+            <br/>
             <p>Es por esto que te ofrecemos páginas atractivas y optimizadas para todos los dispositivos, 
               para que tus clientes tengan una buena experiencia de uso y se animen a adquirir tus productos o servicios
             </p>

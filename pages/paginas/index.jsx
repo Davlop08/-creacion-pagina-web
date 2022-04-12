@@ -129,6 +129,114 @@ export default function index() {
 
                     </div>
                 </section>
+
+                <section className={styles.admin_sites_container}>
+                    <div className={styles.admin_sites_title_container}>
+                        <h3>Tiendas online</h3>
+                    </div>
+
+                    <div className={styles.admin_sites_content}>
+
+                        <div className={`${styles.card_holder} ${styles.basic_pages_card_container}`}>
+                            <Link href="/paginas">
+                                <a>
+                                    <div className={styles.card_container}>
+                                        <div className={styles.card_img_container}>
+                                            <Image className={styles.card_img} src="/imagenes/3.png" alt="pagina" width={250} height={200}></Image>
+                                        </div>
+
+                                        <div className={styles.page_type_title}>
+                                            <h4>Tienda básica</h4>
+                                        </div>
+
+                                        <div className={styles.page_type_description}>
+                                            <p>Sitio web con 3 páginas en el que podés vender tus productos, ofrecer medios de envío y
+                                                cobrar con mercado pago. No incluye carrito de compras
+                                                
+                                            </p>
+                                        </div>
+
+                                        <div className={styles.page_type_price}>
+                                            <span className={styles.aux_price}><span className={styles.aux_price_abreviation}>AR</span>$27.900</span>
+                                            <span className={styles.aux_price_info}>por única vez</span>
+                                        </div>
+
+                                        <span className={styles.pages_view_more}>VER MAS</span>
+                                    </div>
+                                </a>
+                            </Link>
+                        </div>
+
+                        <div className={`${styles.card_holder} ${styles.basic_pages_card_container}`}>
+                            <Link href="/paginas">
+                                <a>
+                                    <div className={styles.card_container}>
+                                        <div className={styles.card_img_container}>
+                                            <Image className={styles.card_img} src="/imagenes/3.png" alt="pagina" width={250} height={200}></Image>
+                                        </div>
+
+                                        <div className={styles.page_type_title}>
+                                            <h4>Tienda básica +</h4>
+                                        </div>
+
+                                        <div className={styles.page_type_description}>
+                                            <p>Sitio web con 4 páginas en el que podés vender tus productos, ofrecer medios de envío y
+                                                cobrar con mercado pago. Incluye carrito de compras
+                                                
+                                            </p>
+                                        </div>
+
+                                        <div className={styles.page_type_price}>
+                                            <span className={styles.aux_price}><span className={styles.aux_price_abreviation}>AR</span>$34.900</span>
+                                            <span className={styles.aux_price_info}>por única vez</span>
+                                        </div>
+
+                                        <span className={styles.pages_view_more}>VER MAS</span>
+                                    </div>
+                                </a>
+                            </Link>
+                        </div>            
+
+
+                        <div className={`${styles.card_holder} ${styles.basic_pages_card_container}`}>
+                            <Link href="/paginas">
+                                <a>
+                                    <div className={styles.card_container}>
+                                        <div className={styles.card_img_container}>
+                                            <Image className={styles.card_img} src="/imagenes/3.png" alt="pagina" width={250} height={200}></Image>
+                                        </div>
+
+                                        <div className={styles.page_type_title}>
+                                            <h4>Tienda recomendada</h4>
+                                        </div>
+
+                                        <div className={styles.page_type_description}>
+                                            <p>Sitio web con 5 páginas en el que podés vender tus productos,
+                                                cobrar con mercado pago, carrito, alta de clientes y control de stock
+                                            </p>
+                                        </div>
+
+                                        <div className={styles.page_type_price}>
+                                            <span className={styles.aux_price}><span className={styles.aux_price_abreviation}>AR</span>$39.900</span>
+                                            <span className={styles.aux_price_info}>por única vez</span>
+                                        </div>
+
+                                        <span className={styles.pages_view_more}>VER MAS</span>
+                                    </div>
+                                </a>
+                            </Link>
+                        </div>        
+
+                    </div>
+
+                </section>
+
+                <section className={styles.host_info_container}>
+                    <div className={styles.content_host_container}>
+                        <h4 className={styles.content_host_title}>Todos nuestros sitios contienen Hosting y dominio.com gratuito el primer año!</h4>
+                        <p className={styles.content_host_description}>Pasado ese tiempo, se deberán renovar de manera anual de acuerdo al tipo de sitio Web construido</p>
+                    </div>
+                </section>
             </Layout>
         </Fragment>
     )

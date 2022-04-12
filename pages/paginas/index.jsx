@@ -16,7 +16,7 @@ export default function index() {
                         <h1 className={styles.entry_content_title}><strong>Páginas web en Argentina al mejor precio</strong></h1>
                         <p className={styles.entry_content_description}>Tenemos la mejor relación precio-calidad del mercado, no solo por decirlo, sino porque
                             es así, ya que ofrecemos páginas de calidad, adaptables a todos los dispositivos, optimizadas en
-                            el SEO para un mejor posicionamiento orgánico y una excelente experiencia para tus usuarios. Mirá nuestros planes:
+                            el SEO para un mejor posicionamiento en buscadores y una excelente experiencia para tus usuarios. Seleccioná algún plan para ver a detalle:
                         </p>
                     </div>
                 </section>
@@ -48,12 +48,12 @@ export default function index() {
                                         </div>
 
                                         <div className={styles.page_type_price}>
-                                            <span>$9900</span>
+                                            <span className={styles.aux_price}><span className={styles.aux_price_abreviation}>AR</span>$9.900</span>
+                                            <span className={styles.aux_price_info}>por única vez</span>
                                         </div>
 
-                                        <Link href="/paginas">
-                                            <a className={styles.pages_view_more}>VER MAS</a>
-                                        </Link>
+                                        <span className={styles.pages_view_more}>VER MAS</span>
+
                                     </div>
                                     
                                 </a>
@@ -81,12 +81,11 @@ export default function index() {
                                         </div>
 
                                         <div className={styles.page_type_price}>
-                                            <span>$14900</span>
+                                            <span className={styles.aux_price}><span className={styles.aux_price_abreviation}>AR</span>$14.900</span>
+                                            <span className={styles.aux_price_info}>por única vez</span>
                                         </div>
 
-                                        <Link href="/paginas">
-                                            <a className={styles.pages_view_more}>VER MAS</a>
-                                        </Link>
+                                        <span className={styles.pages_view_more}>VER MAS</span>
                                     </div>
                                     
                                 </a>
@@ -108,18 +107,18 @@ export default function index() {
                                         </div>
 
                                         <div className={styles.page_type_description}>
-                                            <p>Sitio web de hasta 6 páginas y 30 imágenes. Si necesitas aún más detalle de lo que haces, esta es la ideal
+                                            <p>Sitio web de hasta 6 páginas y 30 imágenes. Si necesitas detallar aún más tus productos o servicios, 
+                                            este sitio es el ideal
                                                 
                                             </p>
                                         </div>
 
                                         <div className={styles.page_type_price}>
-                                            <span>$18900</span>
+                                            <span className={styles.aux_price}><span className={styles.aux_price_abreviation}>AR</span>$18.900</span>
+                                            <span className={styles.aux_price_info}>por única vez</span>
                                         </div>
 
-                                        <Link href="/paginas">
-                                            <a className={styles.pages_view_more}>VER MAS</a>
-                                        </Link>
+                                        <span className={styles.pages_view_more}>VER MAS</span>
                                     </div>
                                     
                                 </a>

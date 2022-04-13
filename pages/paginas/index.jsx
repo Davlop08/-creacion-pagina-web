@@ -4,6 +4,7 @@ import Layout from "../../components/Layout"
 import styles from "../../styles/pages.module.css"
 import Image from "next/image"
 import Link from "next/link"
+import ContactForm from "../../components/ContactForm"
 
 export default function index() {
     return (
@@ -48,8 +49,8 @@ export default function index() {
                                         </div>
 
                                         <div className={styles.page_type_price}>
-                                            <span className={styles.aux_price}><span className={styles.aux_price_abreviation}>AR</span>$9.900</span>
-                                            <span className={styles.aux_price_info}>por única vez</span>
+                                            <span className={styles.aux_price}><span className={styles.aux_price_abreviation}>AR</span>$9.900*</span>
+                                            <span className={styles.aux_price_info}>por única vez**</span>
                                         </div>
 
                                         <span className={styles.pages_view_more}>VER MAS</span>
@@ -81,8 +82,8 @@ export default function index() {
                                         </div>
 
                                         <div className={styles.page_type_price}>
-                                            <span className={styles.aux_price}><span className={styles.aux_price_abreviation}>AR</span>$14.900</span>
-                                            <span className={styles.aux_price_info}>por única vez</span>
+                                            <span className={styles.aux_price}><span className={styles.aux_price_abreviation}>AR</span>$14.900*</span>
+                                            <span className={styles.aux_price_info}>por única vez**</span>
                                         </div>
 
                                         <span className={styles.pages_view_more}>VER MAS</span>
@@ -114,8 +115,8 @@ export default function index() {
                                         </div>
 
                                         <div className={styles.page_type_price}>
-                                            <span className={styles.aux_price}><span className={styles.aux_price_abreviation}>AR</span>$18.900</span>
-                                            <span className={styles.aux_price_info}>por única vez</span>
+                                            <span className={styles.aux_price}><span className={styles.aux_price_abreviation}>AR</span>$18.900*</span>
+                                            <span className={styles.aux_price_info}>por única vez**</span>
                                         </div>
 
                                         <span className={styles.pages_view_more}>VER MAS</span>
@@ -157,8 +158,8 @@ export default function index() {
                                         </div>
 
                                         <div className={styles.page_type_price}>
-                                            <span className={styles.aux_price}><span className={styles.aux_price_abreviation}>AR</span>$27.900</span>
-                                            <span className={styles.aux_price_info}>por única vez</span>
+                                            <span className={styles.aux_price}><span className={styles.aux_price_abreviation}>AR</span>$27.900*</span>
+                                            <span className={styles.aux_price_info}>por única vez**</span>
                                         </div>
 
                                         <span className={styles.pages_view_more}>VER MAS</span>
@@ -187,8 +188,8 @@ export default function index() {
                                         </div>
 
                                         <div className={styles.page_type_price}>
-                                            <span className={styles.aux_price}><span className={styles.aux_price_abreviation}>AR</span>$34.900</span>
-                                            <span className={styles.aux_price_info}>por única vez</span>
+                                            <span className={styles.aux_price}><span className={styles.aux_price_abreviation}>AR</span>$34.900*</span>
+                                            <span className={styles.aux_price_info}>por única vez**</span>
                                         </div>
 
                                         <span className={styles.pages_view_more}>VER MAS</span>
@@ -217,8 +218,8 @@ export default function index() {
                                         </div>
 
                                         <div className={styles.page_type_price}>
-                                            <span className={styles.aux_price}><span className={styles.aux_price_abreviation}>AR</span>$39.900</span>
-                                            <span className={styles.aux_price_info}>por única vez</span>
+                                            <span className={styles.aux_price}><span className={styles.aux_price_abreviation}>AR</span>$39.900*</span>
+                                            <span className={styles.aux_price_info}>por única vez**</span>
                                         </div>
 
                                         <span className={styles.pages_view_more}>VER MAS</span>
@@ -233,10 +234,22 @@ export default function index() {
 
                 <section className={styles.host_info_container}>
                     <div className={styles.content_host_container}>
-                        <h4 className={styles.content_host_title}>Todos nuestros sitios contienen Hosting y dominio.com gratuito el primer año!</h4>
-                        <p className={styles.content_host_description}>Pasado ese tiempo, se deberán renovar de manera anual de acuerdo al tipo de sitio Web construido</p>
+                        <h5 className={styles.content_host_title}>*Todos nuestros sitios contienen Hosting y dominio.com gratuito el primer año!</h5>
+                        <p className={styles.content_host_description}>**Pasado ese tiempo, se deberán renovar de manera anual de acuerdo al tipo de sitio Web construido</p>
                     </div>
                 </section>
+
+                <section className={styles.help_container}>
+                    <div className={styles.help_content_container}>
+                        <h5 className={styles.help_content_title}>
+                            ¿Necesitas asesoramiento?
+                        </h5>
+                        <p className={styles.help_content_description}>Comunicate de manera gratuita a través de WhatsApp o mandanos un mensaje en el siguiente formulario</p>
+                    </div>
+                </section>
+
+                <ContactForm/>
+
             </Layout>
         </Fragment>
     )

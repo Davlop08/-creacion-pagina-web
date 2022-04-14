@@ -109,7 +109,7 @@
 }
 
 .service_content_description{
-
+    color: var(--header_logo_color);
 }
 
 .service_content_aux_title{

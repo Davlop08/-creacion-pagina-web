@@ -78,7 +78,7 @@ export default function index() {
                             Desde AR$4900* + inversión**
                         </h5>
                         <p className={styles.service_content_description}>*El valor puede ser mayor de acuerdo a la complejidad de la campaña</p>
-                        <p>**Costo mensual, sin mínimo de inversión</p>
+                        <p className={styles.service_content_description}>**Costo mensual, sin mínimo de inversión</p>
                         <h5 className={styles.service_content_aux_title}>Escribinos por WhatsApp o dejanos tus datos y nos comunicaremos con vos para brindarte un asesoramiento 
                             personalizado</h5>
                     </div>

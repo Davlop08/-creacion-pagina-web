@@ -227,9 +227,49 @@ export default function index() {
                                 </a>
                             </Link>
                         </div>        
-
+                        
                     </div>
 
+                </section>
+
+
+                <section className={styles.custom_sites_container}>
+                    <div className={styles.custom_sites_title_container}>
+                        <h3>Sitios personalizados</h3>
+                    </div>
+
+                    <div className={styles.custom_sites_content}>
+
+                    <div className={`${styles.card_holder} ${styles.basic_pages_card_container}`}>
+                            <Link href="/paginas">
+                                <a>
+                                    <div className={styles.card_container}>
+                                        <div className={styles.card_img_container}>
+                                            <Image className={styles.card_img} src="/imagenes/3.png" alt="pagina" width={250} height={200}></Image>
+                                        </div>
+
+                                        <div className={styles.page_type_title}>
+                                            <h4>Sitio a medida</h4>
+                                        </div>
+
+                                        <div className={styles.page_type_description}>
+                                            <p>Sitio web completamente personalizado, diseñado a la medida de tu proyecto, con las
+                                                páginas, imágenes y demás contenido que necesites.
+                                            </p>
+                                        </div>
+
+                                        <div className={styles.page_type_price}>
+                                            <span className={styles.aux_price}>$ A convenir*</span>
+                                            <span className={styles.aux_price_info}>por única vez**</span>
+                                        </div>
+
+                                        <span className={styles.pages_view_more}>VER MAS</span>
+                                    </div>
+                                </a>
+                            </Link>
+                        </div>
+
+                    </div>
                 </section>
 
                 <section className={styles.host_info_container}>
@@ -244,7 +284,9 @@ export default function index() {
                         <h5 className={styles.help_content_title}>
                             ¿Necesitas asesoramiento?
                         </h5>
-                        <p className={styles.help_content_description}>Comunicate de manera gratuita a través de WhatsApp o mandanos un mensaje en el siguiente formulario</p>
+                        <p className={styles.help_content_description}>Comunicate de manera gratuita a través de WhatsApp o mandanos tus datos en el siguiente formulario
+                            y nos comunicaremos con vos
+                        </p>
                     </div>
                 </section>
 

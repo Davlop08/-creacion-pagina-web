@@ -46,11 +46,13 @@
 /*--------------------------------general styles*/
 
 .basic_pages_container, 
-.admin_sites_container{
+.admin_sites_container,
+.custom_sites_container{
     width: 100%;
 }
 .basic_pages_title_container,
-.admin_sites_title_container{
+.admin_sites_title_container,
+.custom_sites_title_container{
     text-align: center;
     font-size: 2rem;
     color: var(--header_hover_color);
@@ -58,7 +60,8 @@
     margin-top: 50px;
 }
 .basic_pages_content,
-.admin_sites_content{
+.admin_sites_content,
+.custom_sites_content{
     text-align: center;
     display: flex;
     flex-wrap: wrap;

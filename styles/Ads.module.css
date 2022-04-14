@@ -1,0 +1,120 @@
+/*-------------------------------------------entry section---------------------------------------*/
+
+.entry_container{
+    width: 100%;
+    margin-top: 100px;
+}
+
+.entry_content_container{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    text-align: center;
+    max-width: 1000px;
+    margin: 20px auto;
+    font-size: 25px;
+    padding: 20px 20px 0 20px;
+
+}
+
+.entry_content_title{
+    font-size: 4rem;
+    color: var(--header_hover_color);
+    font-weight: lighter;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.entry_content_description{
+    color: var(--header_logo_color);
+}
+
+@media(max-width: 864px){
+    .entry_container{
+        margin-top: 60px;
+    }
+
+    .entry_content_title{
+        font-size: 3.3rem;
+    }
+}
+
+/*---------------------------------------------------container benefits-------------------------------------*/
+
+.container_benefits{
+    width: 100%;
+    margin-top: 100px;
+}
+
+.container_benefits_content{
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.list_item{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    place-content: center;
+    margin: auto 20px;    
+}
+
+.list_img{
+    text-align: center;
+    place-content: center;
+    margin: auto auto;
+    object-fit: contain;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.benefits_title{
+    font-size: 2.7rem;
+    color: var(--header_hover_color);
+    padding: 20px 0;
+    font-weight: 100;
+}
+
+.benefits_description{
+    font-size: 27px;
+    color: var(--header_logo_color);
+    padding: 20px 0;
+}
+
+
+/*----------------------------------------------------------service section----------------------------------------*/
+
+
+.container_service{
+    width: 100%;
+}
+
+.service_content{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    text-align: center;
+    max-width: 1000px;
+    margin: 20px auto;
+    font-size: 25px;
+    padding: 20px 20px 0 20px;
+    border-top: 1px solid blue;
+}
+
+.service_content_title{
+    color: var(--header_hover_color);
+    font-weight: 100;
+}
+
+.service_content_description{
+
+}
+
+.service_content_aux_title{
+    color: var(--header_hover_color);
+    font-weight: 100;
+    margin-top: 50px;
+}
+

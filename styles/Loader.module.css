@@ -1,0 +1,20 @@
+.loading{
+    margin-top: 80px;
+    display: flex;
+    place-content: center;
+    align-content: center;
+    height: calc(100vh - 80px);
+    width: 100%;
+}
+
+.spinning{
+    animation: spinner .7s linear infinite;
+    align-self: center;
+    color: var(--header_hover_color);
+}
+
+@keyframes spinner {
+    to{
+        transform: rotate(360deg);
+    }
+}

@@ -3,11 +3,11 @@ import Loader from "./Loader"
 
 export default function Main({children}) {
     
-    const [loading, setLoading] = useState(true)
-
     useEffect(()=>{
         setLoading(false)
     },[])
+    
+    const [loading, setLoading] = useState(true)
 
     if(loading){
         return <Loader/>

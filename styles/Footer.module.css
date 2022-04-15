@@ -1,6 +1,22 @@
 .footer{
     z-index: -100;
     background-color: var(--footer_back_color);
+    font-weight: 100;
+}
+
+.separator{
+    width: 100%;
+    height: 100px;
+    background-image: url("../public/imagenes/wave_footer.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    position: relative;
+    top: -5px;
+}
+
+.footer_content_container{
+    width: 100%;
     padding: 70px;
 }
 
@@ -12,11 +28,13 @@
 .row{
     display: flex;
     flex-wrap: wrap;
+    justify-items: center;
 }
 
 .footer_col{
     width: 25%;
     padding: 0 15px;
+    text-align: center;
 }
 
 .footer_col_h4{
@@ -30,12 +48,13 @@
 .footer_col_h4::before{
     content: '';
     position: absolute;
-    left: 0;
+    left: calc(50% - 40px);
     bottom: -10px;
     background-color: var(--footer_separator_color);
     height: 2px;
     box-sizing: border-box;
     width: 80px;
+
 }
 
 .footer_col_ul_li:not(:last-child){
@@ -50,6 +69,7 @@
     font-weight: 300;
     display: block;
     transition: all .1s ease;
+
 }
 
 .footer_col_ul_a:hover{
@@ -70,3 +90,20 @@
     }
 }
 
+@media (min-width: 1074px) {
+    .separator{
+        height: 150px;
+    }
+}
+
+@media (min-width: 1662px){
+    .separator{
+        height: 200px;
+    }
+}
+
+@media (min-width: 2229px){
+    .separator{
+        height: 240px;
+    }
+}

@@ -1,9 +1,12 @@
 import Link from 'next/link'
 import styles from '../styles/Footer.module.css'
+import Image from "next/image"
 
 export default function Footer() {
     return (
         <footer className={styles.footer}>
+            <div className={styles.separator}></div>
+            <div className={styles.footer_content_container}>
             <div className={styles.container}>
                 <div className={styles.row}>
                     <div className={styles.footer_col}>
@@ -104,7 +107,10 @@ export default function Footer() {
                     </div>
                 </div>
             </div>
+            </div>
         </footer>
+        
+
     )
 }
 

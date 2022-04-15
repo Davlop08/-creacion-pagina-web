@@ -7,6 +7,11 @@ export default function Header() {
 
     const[toggle, setToggle] = useState(styles.nav_menu_visible)
 
+    const setToggleCallback = () =>{
+        const data = document.querySelector("#nav_menu")
+        data.classList.toggle(styles.nav_menu_visible)
+    }
+
     return (
         <header className={styles.header}>
             <nav className={styles.nav}>
@@ -16,16 +21,11 @@ export default function Header() {
                         </a>
                     </Link>
 
-                    <button className={toggle, styles.toggle} aria-label="menú" onClick={()=>{
-
-                        const data = document.querySelector("#nav_menu")
-                        data.classList.toggle(styles.nav_menu_visible)
-
-                    }}>
+                    <button className={toggle, styles.toggle} aria-label="menú" onClick={setToggleCallback}>
                         <Image className={styles.toggle_img} src="/iconos/barras menu.png" width={30} height={30} alt="Menu"></Image>
                     </button>
                         
-                    <ul id="nav_menu" className={styles.nav_menu}>
+                    <ul id="nav_menu" className={styles.nav_menu} onClick={setToggleCallback}>
                         <li className={styles.nav_menu_item}>
                             <Link href="/">
                                 <a className={styles.nav_link}>

@@ -1,5 +1,5 @@
 const globals ={
-    direction: "http://localhost:3000"
+    direction: "http://192.168.0.13:3000"
 }
 
 export default globals

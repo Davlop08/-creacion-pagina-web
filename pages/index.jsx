@@ -5,6 +5,8 @@ import { Fragment } from "react"
 import HeadMeta from "../components/HeadMeta"
 import Image from "next/image"
 import ContactForm from "../components/ContactForm"
+import globals from "../globals"
+
 export default function Home() {
   return (
 
@@ -57,7 +59,7 @@ export default function Home() {
                 </div>
               </div>
               
-              <Link href="/">
+              <Link href={`${globals.direction}/paginas`}>
                 <a className={styles.pages_radius}>
                   <div className={styles.empty + ' ' + styles.empty_1}>
                     <Image src="/imagenes/single_page.png" height={250} width={250} alt="imagen"/>
@@ -82,7 +84,7 @@ export default function Home() {
                 </div>
               </div>
 
-              <Link href="/">
+              <Link href={`${globals.direction}/publicidad`}>
                   <a className={styles.pages_radius}>
                     <div className={styles.empty + ' ' + styles.empty_2}>
                       <Image src="/imagenes/basic_site.png" height={250} width={250} alt="imagen"/>
@@ -105,7 +107,7 @@ export default function Home() {
                 </div>
               </div>
 
-              <Link href="/">
+              <Link href={`${globals.direction}/mantenimiento`}>
                   <a className={styles.pages_radius}>
                     <div className={styles.empty + ' ' + styles.empty_3}>
                       <Image src="/imagenes/comerce_site.png" height={250} width={250} alt="imagen"/>
@@ -119,13 +121,13 @@ export default function Home() {
             
 
               <div className={styles.experience + ' ' + styles.experience_4}>
-                <h4 className={styles.experience_title_4}>Sitio autoadministrable</h4>
+                <h4 className={styles.experience_title_4}>Paquetes</h4>
                 <div className={styles.experience_description}>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda tenetur aliquam esse incidunt. Eaque reiciendis vitae doloremque tenetur et! Eveniet unde ex soluta accusantium aut dolore culpa eius optio assumenda.
                 </div>
               </div>
 
-              <Link href="/">
+              <Link href={`${globals.direction}/paquetes`}>
                   <a className={styles.pages_radius}>
                     <div className={styles.empty + ' ' + styles.empty_4}>
                       <Image src="/imagenes/self_admin.png" height={250} width={250} alt="imagen"/>

@@ -1,0 +1,182 @@
+.entry_container{
+    width: 100%;
+    margin-top: 100px;
+}
+
+@media (max-width: 864px){
+    .entry_container{
+        margin-top: 80px;
+    }
+}
+
+.entry_content_container{
+    display: flex;
+    flex-direction: column;
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.entry_content_title{
+    font-size: 3rem;
+    font-weight: 100;
+    color: var(--header_hover_color);
+}
+
+.entry_content_description{
+    font-size: 2rem;
+    font-weight: 100;
+    color: var(--header_logo_color);
+}
+
+
+/*------------------------------------------------------details section----------------------------------------*/
+
+.plan_details_container{
+    width: 100%;
+    margin-top: 100px;
+}
+.plan_details_title_container{
+    text-align: center;
+    font-size: 2rem;
+    color: var(--header_hover_color);
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+.plan_details_content{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1300px;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+
+.plan_details_card_container{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    margin: 15px;
+    font-weight: 100;
+}
+
+.card_container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.plan_type_title{
+    border-top: 1px solid blue;
+    padding: 10px 0;
+    color: var(--header_hover_color);
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.plan_type_description{
+    padding: 0 5px 10px 5px;
+}
+
+.plan_type_price{
+    font-size: 40px;
+    color: var(--header_hover_color);
+    display: flex;
+    flex-direction: column;
+}
+
+.aux_price_abreviation{
+    position: absolute;
+    font-size: 15px;
+    bottom: 15px;
+    left: -18px;
+}
+
+.aux_price{
+    position: relative;
+}
+
+.aux_price_info{
+    font-size: 15px;
+    color: black;
+}
+
+.pages_view_more{
+    display: flex;
+    padding: 5px;
+    color: var(--header_hover_color);
+    border-radius: 10px;
+    width: fit-content;
+    height: auto;
+    text-align: center;
+    margin-bottom: 10px;
+    transition: all .1s ease;
+    font-size: 20px;
+}
+
+.pages_view_more:hover{
+    transform: scale(1.2);
+}
+
+.card_holder{
+    border: 1px solid var(--header_hover_color);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    border-radius: 30px;
+    transition: all .2s ease;
+}
+
+.card_holder:hover{
+    box-shadow: 0px 0px 21px 0px rgba(0,0,0,0.75);
+}
+
+.card_img_container{
+    padding: 10px;
+}
+
+/*----------------------------------------------------- help section---------------------------------- */
+
+.help_container{
+    width: 100%;
+    margin-top: 100px;
+}
+
+.help_content_container{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    text-align: center;
+    max-width: 1300px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.help_content_title{
+    font-size: 30px;
+    font-weight: 100;
+    color: var(--header_hover_color);
+    margin-top: 50px;
+}
+
+.help_content_description{
+    font-size: 20px;
+    padding: 30px 10px;
+}
+
+.help_container{
+    border-top: 2px solid var(--header_hover_color);
+}
+
+.help_content_title{
+    font-size: 3rem;
+}
+
+@media (max-width: 864px){
+    .help_content_title{
+        font-size: 2.5rem;
+    }
+}

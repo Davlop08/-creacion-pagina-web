@@ -261,10 +261,12 @@
     width: 100%;
     height: auto;
     background-color: #FFFFFFFF;
-    margin-top: 30px;
+    margin-top: 100px;
     display: flex;
     justify-content: center;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    border-top: 2px solid var(--header_hover_color);
+    padding-top: 20px;
 }
 
 .container_secondary_info{
@@ -283,6 +285,7 @@
 .container_secondary_info p {
     font-size: 1.4em;
     font-weight: 500;
+    margin-bottom: 20px;
 }
 
 

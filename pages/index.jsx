@@ -151,7 +151,7 @@ export default function Home() {
 
       <section className={styles.container_title_contact}>
         <div className={styles.title_contact}>
-          <h4>Recibí asesoramiento gratuito a través de WhatsApp o del siguiente formulario</h4>
+          <h4>Recibí asesoramiento gratuito a través de WhatsApp o dejanos tus datos en el siguiente formulario y nos comunicaremos con vos</h4>
         </div>
       </section>
 

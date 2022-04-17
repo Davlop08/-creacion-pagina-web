@@ -103,10 +103,11 @@
 .experiences_title{
     text-align: center;
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight: 100;
     font-size: 30px;
     margin: 25px;
 }
+
 
 .experience_description{
     font-weight: 400;
@@ -116,30 +117,41 @@
 }
 
 .experience_title_1{
-    font-size: 25px;
+    font-size: 30px;
     text-align: center;
     margin-bottom: 20px;
+    font-weight: 100;
 }
 .experience_title_2{
-    font-size: 25px;
+    font-size: 30px;
     text-align: center;
     padding: 20px 0;
+}
+.experience_title_2 strong{
+    font-weight: 100;
+
 }
 .experience_title_3{
-    font-size: 25px;
+    font-size: 30px;
     text-align: center;
     padding: 20px 0;
+    font-weight: 100;
 }
 .experience_title_4{
-    font-size: 25px;
+    font-size: 30px;
     text-align: center;
     padding: 20px 0;
+    font-weight: 100;
 }
 
 .experience{
     padding: 40px;
     max-width: 500px;
     margin: 0 auto;
+}
+.experience p {
+    font-size: 20px;
+    font-weight: 100;
 }
 
 .experiences_grid{
@@ -174,6 +186,10 @@
     position: relative;
 }
 
+.empty p {
+    font-weight: 100;
+}
+
 @media (max-width:300px){
     .empty{
         width: 250px;
@@ -194,6 +210,10 @@
     border-top: 2px solid var(--index_presentation_color);
     margin-top: 10px;
     padding-top: 10px;
+}
+
+.card_info h5{
+    font-weight: 100;
 }
 
 .container_title_contact{

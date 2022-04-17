@@ -64,7 +64,7 @@ export default function Home() {
                   <div className={styles.empty + ' ' + styles.empty_1}>
                     <Image src="/imagenes/single_page.png" height={250} width={250} alt="imagen"/>
                     <div className={styles.card_info}>
-                      <h5>Desde $10.000</h5>
+                      <h5>Desde $9.900</h5>
                       <p>Ver más</p>                  
                     </div>
                   </div>
@@ -89,7 +89,8 @@ export default function Home() {
                     <div className={styles.empty + ' ' + styles.empty_2}>
                       <Image src="/imagenes/basic_site.png" height={250} width={250} alt="imagen"/>
                       <div className={styles.card_info}>
-                        <h5>Desde $10.000</h5>
+                        <h5>Desde $4.900 + inversión
+                        </h5>
                         <p>Ver más</p>                  
                       </div>
                     </div>
@@ -97,12 +98,12 @@ export default function Home() {
               </Link>
 
               <div className={styles.experience + ' ' + styles.experience_3}>
-                <h4 className={styles.experience_title_3}>Mantenimiento de Web</h4>
+                <h4 className={styles.experience_title_3}>Mantenimiento Web</h4>
                 <div className={styles.experience_description}>
                   <p>
                     ¿Tenés una web y queres actualizarla, o no tenés tiempo para administrarla? 
                     Dejanos el trabajo a nosotros y obtené mejoras en el SEO de tu web, mejor rendimiento, actualización
-                    de textos o imágenes y demás, ofreciendo una mejor experiencia de usuario a tus clientes! 
+                    de textos o imágenes y demás, ofreciendo una mejor experiencia de usuario a tus clientes 
                   </p>
                 </div>
               </div>
@@ -112,7 +113,7 @@ export default function Home() {
                     <div className={styles.empty + ' ' + styles.empty_3}>
                       <Image src="/imagenes/comerce_site.png" height={250} width={250} alt="imagen"/>
                       <div className={styles.card_info}>
-                        <h5>Desde $2000/mes</h5>
+                        <h5>Desde $999</h5>
                         <p>Ver más</p>                  
                       </div>
                     </div>
@@ -123,7 +124,9 @@ export default function Home() {
               <div className={styles.experience + ' ' + styles.experience_4}>
                 <h4 className={styles.experience_title_4}>Paquetes</h4>
                 <div className={styles.experience_description}>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda tenetur aliquam esse incidunt. Eaque reiciendis vitae doloremque tenetur et! Eveniet unde ex soluta accusantium aut dolore culpa eius optio assumenda.
+                  Paquetes personalizados o estadar con sitio web incluido, para que empieces tu negocio online con todo lo necesario
+                  sin que tengas que preocuparte por administrar la publicidad, el mantenimiento ni los cambios
+                  que haya que hacer en tu sitio
                 </div>
               </div>
 
@@ -132,7 +135,7 @@ export default function Home() {
                     <div className={styles.empty + ' ' + styles.empty_4}>
                       <Image src="/imagenes/self_admin.png" height={250} width={250} alt="imagen"/>
                       <div className={styles.card_info}>
-                        <h5>Desde $10.000</h5>
+                        <h5>Desde $23.900</h5>
                         <p>Ver más</p>                  
                       </div>
                     </div>

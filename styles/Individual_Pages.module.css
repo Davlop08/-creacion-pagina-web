@@ -1,0 +1,29 @@
+.entry_container{
+    width: 100%;
+    margin-top: 80px;
+    background-color: red;
+}
+
+@media (max-width: 864px){
+    .entry_container{
+        margin-top: 60px;
+    }
+}
+
+.entry_content_container{
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: yellow;
+}
+
+.entry_content_title{
+    font-size: 3rem;
+    color: var(--header_hover_color);
+}
+.entry_content_description{
+    font-size: 2rem;
+    color: var(--header_logo_color);
+}

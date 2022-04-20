@@ -5,6 +5,7 @@ import styles from "../../styles/Packs.module.css"
 import Image from "next/image"
 import Link from "next/link"
 import ContactForm from "../../components/ContactForm"
+import globals from "../../globals"
 
 export default function index() {
     return (
@@ -75,7 +76,7 @@ export default function index() {
                                         </div>
 
                                         <div className={styles.plan_type_price}>
-                                            <span className={styles.aux_price}><span className={styles.aux_price_abreviation}>AR</span>$23.900</span>
+                                            <span className={styles.aux_price}><span className={styles.aux_price_abreviation}>AR</span>{globals.packs.starter}</span>
                                             <span className={styles.aux_price_info}>Mensuales*</span>
                                         </div>
 
@@ -106,7 +107,7 @@ export default function index() {
                                         </div>
 
                                         <div className={styles.plan_type_price}>
-                                            <span className={styles.aux_price}><span className={styles.aux_price_abreviation}>AR</span>$29.900</span>
+                                            <span className={styles.aux_price}><span className={styles.aux_price_abreviation}>AR</span>{globals.packs.pyme}</span>
                                             <span className={styles.aux_price_info}>Mensuales*</span>
                                         </div>
 

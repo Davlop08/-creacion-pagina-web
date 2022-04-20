@@ -5,6 +5,7 @@ import styles from "../../styles/maintenance.module.css"
 import Image from "next/image"
 import Link from "next/link"
 import ContactForm from "../../components/ContactForm"
+import globals from "../../globals"
 
 export default function index() {
     return (
@@ -51,7 +52,7 @@ export default function index() {
                                             </div>
 
                                             <div className={styles.plan_type_price}>
-                                                <span className={styles.aux_price}><span className={styles.aux_price_abreviation}>AR</span>$999</span>
+                                                <span className={styles.aux_price}><span className={styles.aux_price_abreviation}>AR</span>{globals.plans.basic}</span>
                                                 <span className={styles.aux_price_info}>Mensuales*</span>
                                             </div>
 
@@ -81,7 +82,7 @@ export default function index() {
                                             </div>
 
                                             <div className={styles.plan_type_price}>
-                                                <span className={styles.aux_price}><span className={styles.aux_price_abreviation}>AR</span>$1.499</span>
+                                                <span className={styles.aux_price}><span className={styles.aux_price_abreviation}>AR</span>{globals.plans.basicPlus}</span>
                                                 <span className={styles.aux_price_info}>Mensuales*</span>
                                             </div>
 
@@ -111,7 +112,7 @@ export default function index() {
                                             </div>
 
                                             <div className={styles.plan_type_price}>
-                                                <span className={styles.aux_price}><span className={styles.aux_price_abreviation}>AR</span>$1.899</span>
+                                                <span className={styles.aux_price}><span className={styles.aux_price_abreviation}>AR</span>{globals.plans.pyme}</span>
                                                 <span className={styles.aux_price_info}>Mensuales*</span>
                                             </div>
 
@@ -141,7 +142,7 @@ export default function index() {
                                             </div>
 
                                             <div className={styles.plan_type_price}>
-                                                <span className={styles.aux_price}><span className={styles.aux_price_abreviation}>AR</span>$400</span>
+                                                <span className={styles.aux_price}><span className={styles.aux_price_abreviation}>AR</span>{globals.plans.individual}</span>
                                                 <span className={styles.aux_price_info}>por cambio</span>
                                             </div>
 

@@ -4,6 +4,7 @@ import HeadMeta from "../../components/HeadMeta"
 import styles from "../../styles/Ads.module.css"
 import Image from  "next/image"
 import ContactForm from "../../components/ContactForm"
+import globals from "../../globals";
 
 
 export default function index() {
@@ -75,7 +76,7 @@ export default function index() {
                 <section className={styles.container_service}>
                     <div className={styles.service_content}>
                         <h5 className={styles.service_content_title}>
-                            Desde AR$4900* + inversión**
+                            Desde {globals.publicity}* + inversión**
                         </h5>
                         <p className={styles.service_content_description}>*El valor puede ser mayor de acuerdo a la complejidad de la campaña</p>
                         <p className={styles.service_content_description}>**Costo mensual, sin mínimo de inversión</p>

@@ -1,5 +1,6 @@
 const globals ={
     direction: "http://192.168.0.13:3000",
+    publicity: "$4.900",
     pagesPrices:{
         landing: "$9.900",
         basica: "$14.900",
@@ -7,6 +8,16 @@ const globals ={
         tiendaBasica: "$27.900",
         tiendaBasicaPlus:"$34.900",
         tiendaRecomendada: "$39.900"
+    },
+    plans : {
+        basic: "$999",
+        basicPlus: "$1.499",
+        pyme: "$1.899",
+        individual: "$400"
+    },
+    packs: {
+        starter: "$23.900",
+        pyme: "$29.900"
     }
 }
 

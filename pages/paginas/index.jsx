@@ -9,7 +9,9 @@ import ContactForm from "../../components/ContactForm"
 export default function index() {
     return (
         <Fragment>
-            <HeadMeta title="Paginas Web | Lorem Soluciones Web"/>
+            <HeadMeta title="Paginas Web | Lorem Soluciones Web" metaDescription="Conocé los precios de las distintas 
+            páginas web que tenemos para ofrecerte. Asesoramiento gratuito para que obtengas la que mejor se adapte a tus
+            necesidades"/>
 
             <Layout>
                 <section className={styles.entry_container}>
@@ -31,7 +33,7 @@ export default function index() {
                     <div className={styles.basic_pages_content}>
 
                         <div className={`${styles.card_holder} ${styles.basic_pages_card_container}`}>
-                            <Link href="/paginas">
+                            <Link href="/paginas/landing">
                                 <a>
                                     <div className={styles.card_container}>
                                         <div className={styles.card_img_container}>
@@ -64,7 +66,7 @@ export default function index() {
 
 
                         <div className={`${styles.card_holder} ${styles.basic_pages_card_container}`}>
-                            <Link href="/paginas">
+                            <Link href="/paginas/basico">
                                 <a>
                                     <div className={styles.card_container}>
                                         <div className={styles.card_img_container}>
@@ -96,7 +98,7 @@ export default function index() {
 
 
                         <div className={`${styles.card_holder} ${styles.basic_pages_card_container}`}>
-                            <Link href="/paginas">
+                            <Link href="/paginas/basico_plus">
                                 <a>
                                     <div className={styles.card_container}>
                                         <div className={styles.card_img_container}>
@@ -139,7 +141,7 @@ export default function index() {
                     <div className={styles.admin_sites_content}>
 
                         <div className={`${styles.card_holder} ${styles.basic_pages_card_container}`}>
-                            <Link href="/paginas">
+                            <Link href="/paginas/tienda_basica">
                                 <a>
                                     <div className={styles.card_container}>
                                         <div className={styles.card_img_container}>
@@ -169,7 +171,7 @@ export default function index() {
                         </div>
 
                         <div className={`${styles.card_holder} ${styles.basic_pages_card_container}`}>
-                            <Link href="/paginas">
+                            <Link href="/paginas/tienda_basica_plus">
                                 <a>
                                     <div className={styles.card_container}>
                                         <div className={styles.card_img_container}>
@@ -200,7 +202,7 @@ export default function index() {
 
 
                         <div className={`${styles.card_holder} ${styles.basic_pages_card_container}`}>
-                            <Link href="/paginas">
+                            <Link href="/paginas/tienda_recomendada">
                                 <a>
                                     <div className={styles.card_container}>
                                         <div className={styles.card_img_container}>

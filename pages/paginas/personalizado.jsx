@@ -12,15 +12,18 @@ export default function personalizado() {
     return (
         <Fragment>
 
-            <HeadMeta title="nombre | Lorem Soluciones Web" metaDescription="agregar descripcion"/>
+            <HeadMeta title="Diseño Web Personalizado | Lorem Soluciones Web" metaDescription="El sitio web personalizado te permite tener
+            un sitio completamente único y personalizado a tu medida"/>
 
             <Layout>
                 <section className={styles.entry_container}>
                     <div className={styles.entry_content_container}>
                         <h1 className={styles.entry_content_title}>Sitio Web Personalizado</h1>
                         <p className={styles.entry_content_description}>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid sint maxime 
-                            delectus esse sequi necessitatibus ad error possimus dicta rem!
+                            Con el sitio web personalizado vas a tener total libertad de elegir la estructura de tu sitio web,
+                            lo que te permite tener un sitio único sin basarte en plantillas, con las características que necesites. 
+                            Esto es ideal si tenés una idea en mente, y con nuestro asesoramiento concluirá en un gran proyecto que cumpla
+                            al 100% con tus expectativas!
                         </p>
                     </div>
                 </section>

@@ -13,15 +13,18 @@ export default function tiendaBasicaPlus() {
     return (
         <Fragment>
 
-            <HeadMeta title="Tienda Online Básica + | Lorem Soluciones Web" metaDescription="agregar descripcion"/>
+            <HeadMeta title="Diseño Tienda Online Básica + | Lorem Soluciones Web" metaDescription="Descubrí el precio de la tienda online
+            basica +, la cuál te permite tener un carrito de compras y una variedad más amplia de productos"/>
 
             <Layout>
                 <section className={styles.entry_container}>
                     <div className={styles.entry_content_container}>
                         <h1 className={styles.entry_content_title}>Tienda Online Básica +</h1>
                         <p className={styles.entry_content_description}>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid sint maxime 
-                            delectus esse sequi necessitatibus ad error possimus dicta rem!
+                            La tienda básica + te permite llevar un poco más adelante tus ventas, ya que disponés de
+                            un carrito de compras para que tus clientes puedan agregar varios productos, pero sigue 
+                            estando limitado a productos que no cambian en el tiempo, ya que no se dispone
+                            de un control de stock.
                         </p>
                     </div>
                 </section>

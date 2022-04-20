@@ -111,7 +111,7 @@ export default function index() {
                                             </div>
 
                                             <div className={styles.plan_type_price}>
-                                                <span className={styles.aux_price}><span className={styles.aux_price_abreviation}>AR</span>$1.499</span>
+                                                <span className={styles.aux_price}><span className={styles.aux_price_abreviation}>AR</span>$1.899</span>
                                                 <span className={styles.aux_price_info}>Mensuales*</span>
                                             </div>
 

@@ -13,15 +13,17 @@ export default function tiendaBasica() {
     return (
         <Fragment>
 
-            <HeadMeta title="Tienda Online Básica | Lorem Soluciones Web" metaDescription="agregar descripcion"/>
+            <HeadMeta title="Diseño Tienda Online Básica | Lorem Soluciones Web" metaDescription="Con la tienda online
+            básica vas a poder empezar a vender tus productos de una manera rápida y sencilla"/>
 
             <Layout>
                 <section className={styles.entry_container}>
                     <div className={styles.entry_content_container}>
                         <h1 className={styles.entry_content_title}>Tienda Online Básica</h1>
                         <p className={styles.entry_content_description}>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid sint maxime 
-                            delectus esse sequi necessitatibus ad error possimus dicta rem!
+                            La tienda básica es ideal si vendés pocos productos y por ello no es necesario 
+                            un carrito o control de stock. Esta tienda no es recomendada si tenés varios productos 
+                            que agregás o eliminás constantemente
                         </p>
                     </div>
                 </section>

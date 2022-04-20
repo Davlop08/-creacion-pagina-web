@@ -13,15 +13,18 @@ export default function basico() {
     return (
         <Fragment>
 
-            <HeadMeta title="Sitio Web Básico | Lorem Soluciones Web" metaDescription="agregar descripcion"/>
+            <HeadMeta title="Diseño Sitio Web Básico | Lorem Soluciones Web" metaDescription="Descubrí el precio de una página web básica
+            y sus características"/>
 
             <Layout>
                 <section className={styles.entry_container}>
                     <div className={styles.entry_content_container}>
                         <h1 className={styles.entry_content_title}>Sitio Web Básico</h1>
                         <p className={styles.entry_content_description}>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid sint maxime 
-                            delectus esse sequi necessitatibus ad error possimus dicta rem!
+                            El sitio web básico consiste en una página principal y tres secundarias, en las cuáles
+                            podés agregar más detalles de tu negocio, por ejemplo una página de contacto, mostrar más
+                            productos o servicios, una galería o lo que vos quieras mostrar! Te ofrecemos diseños atractivos,
+                            y sobre todo que guían a tus usuarios para que adquieran tus productos.
                         </p>
                     </div>
                 </section>

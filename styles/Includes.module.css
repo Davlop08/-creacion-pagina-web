@@ -3,6 +3,23 @@
     margin-top: 20px;
 }
 
+.site_info_description_container{
+    width: 100%;
+    margin: 40px 0;
+    text-align: center; 
+}
+
+.site_info_description_content_container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.site_info_description_title{
+    color: var(--header_hover_color);
+    font-weight: 100;
+    font-size: 2rem;
+}
+
 .site_info_content_container{
     max-width: 1100px;
     margin: 0 auto;
@@ -25,11 +42,9 @@
     margin: 10px;
     border-radius: 30px;
     text-align: center;
-
     box-shadow: 0px 0px 7px 3px rgba(0,0,0,0.75);
--webkit-box-shadow: 0px 0px 7px 3px rgba(0,0,0,0.75);
--moz-box-shadow: 0px 0px 7px 3px rgba(0,0,0,0.75);
-    
+    -webkit-box-shadow: 0px 0px 7px 3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 7px 3px rgba(0,0,0,0.75);  
 }
 .card_item h5{
     margin: 0 5px;

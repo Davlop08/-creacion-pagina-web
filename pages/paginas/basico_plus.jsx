@@ -6,6 +6,7 @@ import HeadMeta from "../../components/HeadMeta"
 import styles from "../../styles/Individual_Pages.module.css"
 import Pages_Includes from "../../components/Pages_Includes"
 import ContactForm from "../../components/ContactForm"
+import globals from "../../globals"
 
 
 export default function basicoPlus() {
@@ -26,7 +27,7 @@ export default function basicoPlus() {
                 </section>
 
                 <Pages_Includes 
-                price="AR$18.900" 
+                price={'AR' + globals.pagesPrices.basicaPlus} 
                 pages="6" 
                 imgs="30" 
                 cart="No aplica" 

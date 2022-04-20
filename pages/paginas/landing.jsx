@@ -6,6 +6,8 @@ import HeadMeta from "../../components/HeadMeta"
 import styles from "../../styles/Individual_Pages.module.css"
 import Pages_Includes from "../../components/Pages_Includes"
 import ContactForm from "../../components/ContactForm"
+import globals from "../../globals"
+
 
 
 export default function landing() {
@@ -37,7 +39,7 @@ export default function landing() {
                 </section>
 
                 <Pages_Includes 
-                price="AR$9.900" 
+                price={'AR' + globals.pagesPrices.landing}
                 pages="1" 
                 imgs="10" 
                 cart="No aplica" 

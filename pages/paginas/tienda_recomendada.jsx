@@ -6,6 +6,7 @@ import HeadMeta from "../../components/HeadMeta"
 import styles from "../../styles/Individual_Pages.module.css"
 import Pages_Includes from "../../components/Pages_Includes"
 import ContactForm from "../../components/ContactForm"
+import globals from "../../globals"
 
 
 export default function tiendaRecomendada() {
@@ -26,7 +27,7 @@ export default function tiendaRecomendada() {
                 </section>
 
                 <Pages_Includes 
-                price="AR$39.900" 
+                price={'AR' + globals.pagesPrices.tiendaRecomendada}
                 pages="5" 
                 imgs="30" 
                 cart="Tus clientes podrán agregar sus productos al carrito" 

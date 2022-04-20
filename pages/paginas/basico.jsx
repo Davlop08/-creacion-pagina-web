@@ -6,6 +6,8 @@ import HeadMeta from "../../components/HeadMeta"
 import styles from "../../styles/Individual_Pages.module.css"
 import Pages_Includes from "../../components/Pages_Includes"
 import ContactForm from "../../components/ContactForm"
+import globals from "../../globals"
+
 
 export default function basico() {
     return (
@@ -25,7 +27,7 @@ export default function basico() {
                 </section>
 
                 <Pages_Includes 
-                price="AR$14.900" 
+                price={'AR' + globals.pagesPrices.basica}
                 pages="4" 
                 imgs="20" 
                 cart="No aplica" 

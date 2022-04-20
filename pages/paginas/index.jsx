@@ -5,6 +5,7 @@ import styles from "../../styles/pages.module.css"
 import Image from "next/image"
 import Link from "next/link"
 import ContactForm from "../../components/ContactForm"
+import globals from "../../globals"
 
 export default function index() {
     return (
@@ -51,7 +52,7 @@ export default function index() {
                                         </div>
 
                                         <div className={styles.page_type_price}>
-                                            <span className={styles.aux_price}><span className={styles.aux_price_abreviation}>AR</span>$9.900*</span>
+                                            <span className={styles.aux_price}><span className={styles.aux_price_abreviation}>AR</span>{globals.pagesPrices.landing}*</span>
                                             <span className={styles.aux_price_info}>por única vez**</span>
                                         </div>
 
@@ -84,7 +85,7 @@ export default function index() {
                                         </div>
 
                                         <div className={styles.page_type_price}>
-                                            <span className={styles.aux_price}><span className={styles.aux_price_abreviation}>AR</span>$14.900*</span>
+                                            <span className={styles.aux_price}><span className={styles.aux_price_abreviation}>AR</span>{globals.pagesPrices.basica}*</span>
                                             <span className={styles.aux_price_info}>por única vez**</span>
                                         </div>
 
@@ -117,7 +118,7 @@ export default function index() {
                                         </div>
 
                                         <div className={styles.page_type_price}>
-                                            <span className={styles.aux_price}><span className={styles.aux_price_abreviation}>AR</span>$18.900*</span>
+                                            <span className={styles.aux_price}><span className={styles.aux_price_abreviation}>AR</span>{globals.pagesPrices.basicaPlus}*</span>
                                             <span className={styles.aux_price_info}>por única vez**</span>
                                         </div>
 
@@ -160,7 +161,7 @@ export default function index() {
                                         </div>
 
                                         <div className={styles.page_type_price}>
-                                            <span className={styles.aux_price}><span className={styles.aux_price_abreviation}>AR</span>$27.900*</span>
+                                            <span className={styles.aux_price}><span className={styles.aux_price_abreviation}>AR</span>{globals.pagesPrices.tiendaBasica}*</span>
                                             <span className={styles.aux_price_info}>por única vez**</span>
                                         </div>
 
@@ -190,7 +191,7 @@ export default function index() {
                                         </div>
 
                                         <div className={styles.page_type_price}>
-                                            <span className={styles.aux_price}><span className={styles.aux_price_abreviation}>AR</span>$34.900*</span>
+                                            <span className={styles.aux_price}><span className={styles.aux_price_abreviation}>AR</span>{globals.pagesPrices.tiendaBasicaPlus}*</span>
                                             <span className={styles.aux_price_info}>por única vez**</span>
                                         </div>
 
@@ -220,7 +221,7 @@ export default function index() {
                                         </div>
 
                                         <div className={styles.page_type_price}>
-                                            <span className={styles.aux_price}><span className={styles.aux_price_abreviation}>AR</span>$39.900*</span>
+                                            <span className={styles.aux_price}><span className={styles.aux_price_abreviation}>AR</span>{globals.pagesPrices.tiendaRecomendada}*</span>
                                             <span className={styles.aux_price_info}>por única vez**</span>
                                         </div>
 

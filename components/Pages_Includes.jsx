@@ -1,7 +1,7 @@
 import Image from "next/image"
 import styles from "../styles/Includes.module.css"
 
-export default function Pages_Includes({price, pages, imgs, cart, stock, mail, mp}) {
+export default function Pages_Includes({price, pages, imgs, cart, stock, mail, mp, clients}) {
     return (
         <section className={styles.site_info_container}>
             
@@ -74,6 +74,10 @@ export default function Pages_Includes({price, pages, imgs, cart, stock, mail, m
                 <div className={`${styles.card_item} ${styles.card_item_15}`}>
                     <h5>MercadoPago</h5>
                     <p>{mp}</p>
+                </div>
+                <div className={`${styles.card_item} ${styles.card_item_16}`}>
+                    <h5>Alta de clientes</h5>
+                    <p>{clients}</p>
                 </div>
             </div>
         </section>

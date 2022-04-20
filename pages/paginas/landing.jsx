@@ -36,7 +36,15 @@ export default function landing() {
                     </div>
                 </section>
 
-                <Pages_Includes price="AR$9.900" pages="1" imgs="10" cart="No aplica" stock="No aplica" mail="No aplica" mp="No aplica"/>
+                <Pages_Includes 
+                price="AR$9.900" 
+                pages="1" 
+                imgs="10" 
+                cart="No aplica" 
+                stock="No aplica" 
+                mail="No aplica" 
+                mp="No aplica" 
+                clients="No aplica"/>
 
                 <section className={styles.entry_container}>
                     <div className={styles.entry_content_container}>

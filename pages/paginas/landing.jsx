@@ -12,7 +12,11 @@ export default function landing() {
     return (
         <Fragment>
 
-            <HeadMeta title="nombre | Lorem Soluciones Web" metaDescription="agregar descripcion"/>
+            <HeadMeta 
+            title="Landing Page | Lorem Soluciones Web" 
+            metaDescription="Conocé el precio de una landing page profesional, la opción ideal si querés convertir visitantes en
+            clientes con una sola página web. Diseño web profesional"
+            />
 
             <Layout>
 

@@ -243,7 +243,7 @@ export default function index() {
                     <div className={styles.custom_sites_content}>
 
                     <div className={`${styles.card_holder} ${styles.basic_pages_card_container}`}>
-                            <Link href="/paginas">
+                            <Link href="/paginas/personalizado">
                                 <a>
                                     <div className={styles.card_container}>
                                         <div className={styles.card_img_container}>

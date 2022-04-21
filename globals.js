@@ -1,5 +1,5 @@
 const globals ={
-    direction: "https://creacion-pagina-9aaba65to-davlop08.vercel.app",
+    direction: "",
     publicity: "$4.900",
     pagesPrices:{
         landing: "$9.900",

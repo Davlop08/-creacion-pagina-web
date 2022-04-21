@@ -1,0 +1,46 @@
+.entry_container{
+    width: 100%;
+    background-color: blue;
+    margin-top: 80px;
+}
+
+@media (max-width: 864px){
+    .entry_container{
+        margin-top: 60px;
+    }
+}
+
+.entry_content_container{
+    max-width: 1100px;
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.entry_title{
+    font-size: 3rem;
+    color: var(--header_hover_color);
+    font-weight: 100;
+}
+
+.entry_description{
+    font-size: 2rem;
+    color: var(--header_logo_color);
+}
+
+/* ----------------------------------------------------------channels section---------------------------------------- */
+
+.contact_channels_container{
+    width: 100%;
+}
+
+.contact_channels_content_container{
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}

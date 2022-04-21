@@ -18,6 +18,10 @@ const globals ={
     packs: {
         starter: "$23.900",
         pyme: "$29.900"
+    },
+    contact: {
+        number: "+54 9 11 6203-9196",
+        mail: "jdlqdavlop@gmail.com"
     }
 }
 

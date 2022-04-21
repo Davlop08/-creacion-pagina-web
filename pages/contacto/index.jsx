@@ -2,6 +2,9 @@ import { Fragment } from "react";
 import Layout from "../../components/Layout"
 import HeadMeta from "../../components/HeadMeta"
 import styles from "../../styles/Contact.module.css"
+import globals from "../../globals";
+import Link from "next/link"
+import ContactForm from "../../components/ContactForm"
 
 export default function index() {
     return (
@@ -22,7 +25,25 @@ export default function index() {
 
                 <section className={styles.contact_channels_container}>
                     <div className={styles.contact_channels_content_container}>
+                        <div className={styles.contact_element}>
+                            <h4>Teléfono:</h4>
+                            <Link href={`tel:${globals.contact.number}`}>{globals.contact.number}</Link>
+                        </div>
+                        <div className={styles.contact_element}>
+                            <h4>Email:</h4>
+                            <Link href={`mailto:${globals.contact.mail}?`}>
+                                {globals.contact.mail}</Link>
+                        </div>
+                    </div>
+                </section>
 
+                <section className={styles.form_container}>
+                    <div className={styles.form_container_content}>
+                        <h4 className={styles.form_title}>
+                            O dejanos tus datos a continuación y nos comunicaremos con vos a la brevedad
+                        </h4>
+
+                        <ContactForm />
                     </div>
                 </section>
             </Layout>

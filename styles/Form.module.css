@@ -30,6 +30,7 @@
 
 .form_name, .form_mail
 {
+    font-size: 17px;
     width: 250px;
     height: 40px;
     border: 2px solid var(--header_hover_color);
@@ -38,6 +39,7 @@
     margin: 0 auto;
     background-color: var(--index_input_back);
 }
+
 .form_number{
     height: 40px;
     padding: 3px 10px;
@@ -45,6 +47,19 @@
     border: 2px solid var(--header_hover_color);
     background-color: var(--index_input_back);
 }
+
+.form_message{
+    font-size: 17px;
+    width: 250px;
+    height: 200px;
+    border: 2px solid var(--header_hover_color);
+    padding: 3px 10px;
+    border-radius: 10px;    
+    margin: 0 auto;
+    background-color: var(--index_input_back);
+    resize: vertical; 
+}
+
 .form_submit{
     margin-top: 20px;
     border: none;

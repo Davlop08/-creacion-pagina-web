@@ -51,10 +51,17 @@ export default function ContactForm() {
                 </span>
             </div>
 
+                <label htmlFor="mensaje" className={styles.labels}>Mensaje</label>
+            <div className={styles.form_name_container} defaultValue=""  {...register('mensaje', 
+            {required:{value: false}})}>
+                <textarea className={styles.form_message} name="mensaje" cols="30" rows="10"></textarea>
+            </div>
+
             <div>
                 <button type="submit" className={styles.form_submit}>ENVIAR</button>
             </div>
-
+            
+            <label className={styles.labels}>Los campos con * son obligatorios</label>
 
             </form>
 

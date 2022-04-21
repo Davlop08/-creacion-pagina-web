@@ -52,7 +52,7 @@ export default function Header() {
                         </li>
 
                         <li className={styles.nav_menu_item}>
-                            <Link href={`${globals.direction}`}>
+                            <Link href={`${globals.direction}/contacto`}>
                                 <a className={styles.nav_link}>
                                     <span className={styles.nav_menu_link}>Contacto</span>
                                 </a>                            

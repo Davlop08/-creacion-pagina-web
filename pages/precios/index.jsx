@@ -18,6 +18,15 @@ export default function index() {
                             servicios online.
                         </p>
                     </div>
+
+                </section>
+
+                <section className={styles.arrow_container}>
+                    <div className={styles.arrow}>
+                        <span></span>
+                        <span></span>
+                        <span></span>  
+                    </div>
                 </section>
 
                 <Services_Cards/>

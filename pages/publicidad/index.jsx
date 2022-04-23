@@ -41,7 +41,7 @@ export default function index() {
                         </div>
 
                         <div className={`${styles.list_img} ${styles.list_img_1}`}>
-                            <Image src="/imagenes/3.png" alt="presupuesto publicidad google" width={250} height={200}/>
+                            <Image src="/ads/presupuesto.svg" alt="presupuesto publicidad google" width={250} height={200}/>
                         </div>
 
                         <div className={`${styles.list_item} ${styles.list_item_1}`}>
@@ -52,7 +52,7 @@ export default function index() {
                         </div>
 
                         <div className={`${styles.list_img} ${styles.list_img_1}`}>
-                            <Image src="/imagenes/3.png" alt="presupuesto publicidad google" width={250} height={200}/>
+                            <Image src="/ads/clientes.svg" alt="presupuesto publicidad google" width={300} height={200}/>
                         </div>
 
                         <div className={`${styles.list_item} ${styles.list_item_1}`}>
@@ -66,7 +66,7 @@ export default function index() {
                         </div>
 
                         <div className={`${styles.list_img} ${styles.list_img_1}`}>
-                            <Image src="/imagenes/3.png" alt="presupuesto publicidad google" width={250} height={200}/>
+                            <Image src="/ads/analisis.svg" alt="presupuesto publicidad google" width={250} height={200}/>
                         </div>
 
                     </div>                        

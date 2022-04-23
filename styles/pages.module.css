@@ -79,6 +79,7 @@
 
 .page_type_description{
     padding: 0 5px 10px 5px;
+    color: var(--header_logo_color);
 }
 
 .page_type_price{
@@ -93,6 +94,8 @@
     font-size: 15px;
     bottom: 15px;
     left: -18px;
+    color: var(--header_logo_color);
+
 }
 
 .aux_price{
@@ -101,7 +104,8 @@
 
 .aux_price_info{
     font-size: 15px;
-    color: black;
+    color: var(--header_logo_color);
+
 }
 
 .pages_view_more{
@@ -181,6 +185,8 @@
 .help_content_description{
     font-size: 20px;
     padding: 30px 10px;
+    color: var(--header_logo_color);
+
 }
 
 /*--------------------------------------------help form section---------------------------------------*/

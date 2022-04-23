@@ -39,6 +39,10 @@ export default function Pages_Includes({price, pages, imgs, cart, stock, mail, m
                     <h5>Redes sociales</h5>
                     <p>Enlaces a tus redes sociales</p>
                 </div>
+                <div className={`${styles.card_item} ${styles.card_item_17}`}>
+                    <h5>Mapa en la web</h5>
+                    <p>Tus clientes verán tu ubicación directo en tu web</p>
+                </div>
                 <div className={`${styles.card_item} ${styles.card_item_14}`}>
                     <h5>Correo profesional</h5>
                     <p>{mail}</p>

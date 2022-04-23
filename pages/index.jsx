@@ -31,7 +31,7 @@ export default function Home() {
               Desarrollo Web Profesional y accequible 
             </h5>
 
-            <Link href="/">
+            <Link href={`${globals.direction}/paginas`}>
               <a className={styles.button_contact}>
                 Más información
               </a>

@@ -16,9 +16,9 @@ export default function Header() {
     return (
         <header className={styles.header}>
             <nav className={styles.nav}>
-                    <Link href={globals.direction}>
+                    <Link href={`${globals.direction}/`}>
                         <a className={styles.nav_link}>
-                            <span className={styles.logo}>Diseño Web</span>
+                            <span className={styles.logo}>Diseño Web AR</span>
                         </a>
                     </Link>
 
@@ -46,7 +46,7 @@ export default function Header() {
                         <li className={styles.nav_menu_item}>
                             <Link href={`${globals.direction}/paginas`}>
                                 <a className={styles.nav_link}>
-                                    <span className={styles.nav_menu_link}>Desarrollo Web</span>
+                                    <span className={styles.nav_menu_link}>Páginas Web</span>
                                 </a>                            
                             </Link>
                         </li>

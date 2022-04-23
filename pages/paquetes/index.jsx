@@ -31,7 +31,7 @@ export default function index() {
                                 <a>
                                     <div className={styles.card_container}>
                                         <div className={styles.card_img_container}>
-                                            <Image className={styles.card_img} src="/imagenes/3.png" alt="pagina" width={250} height={200}></Image>
+                                            <Image className={styles.card_img} src="/packs/paquete_web_custom.svg" alt="pagina" width={250} height={200}></Image>
                                         </div>
 
                                         <div className={styles.plan_type_title}>
@@ -62,7 +62,7 @@ export default function index() {
                                 <a>
                                     <div className={styles.card_container}>
                                         <div className={styles.card_img_container}>
-                                            <Image className={styles.card_img} src="/imagenes/3.png" alt="pagina" width={250} height={200}></Image>
+                                            <Image className={styles.card_img} src="/packs/paquete_web_starter.svg" alt="pagina" width={250} height={200}></Image>
                                         </div>
 
                                         <div className={styles.plan_type_title}>
@@ -93,7 +93,7 @@ export default function index() {
                                 <a>
                                     <div className={styles.card_container}>
                                         <div className={styles.card_img_container}>
-                                            <Image className={styles.card_img} src="/imagenes/3.png" alt="pagina" width={250} height={200}></Image>
+                                            <Image className={styles.card_img} src="/imagenes/paquetes.svg" alt="pagina" width={250} height={200}></Image>
                                         </div>
 
                                         <div className={styles.plan_type_title}>

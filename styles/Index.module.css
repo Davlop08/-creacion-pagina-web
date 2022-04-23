@@ -141,6 +141,7 @@
 @media (max-width: 864px){
     .container_presentation{
         font-size: 1em;
+        margin-top: 60px;
     }
 
 }

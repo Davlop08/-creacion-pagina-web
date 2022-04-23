@@ -38,7 +38,7 @@ export default function index() {
                                     <a>
                                         <div className={styles.card_container}>
                                             <div className={styles.card_img_container}>
-                                                <Image className={styles.card_img} src="/imagenes/3.png" alt="pagina" width={250} height={200}></Image>
+                                                <Image className={styles.card_img} src="/maintenance/administracion_basica.svg" alt="pagina" width={250} height={200}></Image>
                                             </div>
 
                                             <div className={styles.plan_type_title}>
@@ -68,7 +68,7 @@ export default function index() {
                                     <a>
                                         <div className={styles.card_container}>
                                             <div className={styles.card_img_container}>
-                                                <Image className={styles.card_img} src="/imagenes/3.png" alt="pagina" width={250} height={200}></Image>
+                                                <Image className={styles.card_img} src="/maintenance/administracion_basica_plus.svg" alt="pagina" width={250} height={200}></Image>
                                             </div>
 
                                             <div className={styles.plan_type_title}>
@@ -98,7 +98,7 @@ export default function index() {
                                     <a>
                                         <div className={styles.card_container}>
                                             <div className={styles.card_img_container}>
-                                                <Image className={styles.card_img} src="/imagenes/3.png" alt="pagina" width={250} height={200}></Image>
+                                                <Image className={styles.card_img} src="/maintenance/administracion_pyme.svg" alt="pagina" width={250} height={200}></Image>
                                             </div>
 
                                             <div className={styles.plan_type_title}>
@@ -128,7 +128,7 @@ export default function index() {
                                     <a>
                                         <div className={styles.card_container}>
                                             <div className={styles.card_img_container}>
-                                                <Image className={styles.card_img} src="/imagenes/3.png" alt="pagina" width={250} height={200}></Image>
+                                                <Image className={styles.card_img} src="/maintenance/administracion_individual.svg" alt="pagina" width={250} height={200}></Image>
                                             </div>
 
                                             <div className={styles.plan_type_title}>
@@ -168,7 +168,7 @@ export default function index() {
                             <a>
                                 <div className={styles.card_container}>
                                     <div className={styles.card_img_container}>
-                                        <Image className={styles.card_img} src="/imagenes/3.png" alt="pagina" width={250} height={200}></Image>
+                                        <Image className={styles.card_img} src="/maintenance/mantenimiento_web.svg" alt="pagina" width={250} height={200}></Image>
                                     </div>
 
                                     <div className={styles.plan_type_title}>

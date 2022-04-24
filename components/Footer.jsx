@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import styles from '../styles/Footer.module.css'
 import Image from "next/image"
+import globals from "../globals"
 
 export default function Footer() {
     return (
@@ -13,22 +14,22 @@ export default function Footer() {
                         <h4 className={styles.footer_col_h4}>Compañia</h4>
                         <ul className={styles.footer_col_ul}>
                             <li className={styles.footer_col_ul_li}>
-                                <Link href="/">
+                                <Link href={`${globals.direction}/nosotros`}>
                                     <a className={styles.footer_col_ul_a}>nosotros</a>
                                 </Link>
                             </li>
                             <li className={styles.footer_col_ul_li}>
-                                <Link href="/">
+                                <Link href={`${globals.direction}/precios`}>
                                     <a className={styles.footer_col_ul_a}>servicios</a>
                                 </Link>
                             </li>
                             <li className={styles.footer_col_ul_li}>
-                                <Link href="/">
-                                    <a className={styles.footer_col_ul_a}>politica de privacidad</a>
+                                <Link href={`${globals.direction}/legales`}>
+                                    <a className={styles.footer_col_ul_a}>legales</a>
                                 </Link>
                             </li>
                             <li className={styles.footer_col_ul_li}>
-                                <Link href="/">
+                                <Link href={`${globals.direction}/contacto`}>
                                     <a className={styles.footer_col_ul_a}>contacto</a>
                                 </Link>
                             </li>
@@ -40,17 +41,17 @@ export default function Footer() {
                         <h4 className={styles.footer_col_h4}>Ayuda</h4>
                         <ul className={styles.footer_col_ul}>
                             <li className={styles.footer_col_ul_li}>
-                                <Link href="/">
+                                <Link href={`${globals.direction}/paginas`}>
                                     <a className={styles.footer_col_ul_a}>tipos de paginas</a>
                                 </Link>
                             </li>
                             <li className={styles.footer_col_ul_li}>
-                                <Link href="/">
-                                    <a className={styles.footer_col_ul_a}>métodos de pago</a>
+                                <Link href={`${globals.direction}/mediosdepago`}>
+                                    <a className={styles.footer_col_ul_a}>medios de pago</a>
                                 </Link>
                             </li>
                             <li className={styles.footer_col_ul_li}>
-                                <Link href="/">
+                                <Link href={`${globals.direction}/morosidad`}>
                                     <a className={styles.footer_col_ul_a}>morosidad</a>
                                 </Link>
                             </li>
@@ -62,22 +63,22 @@ export default function Footer() {
                         <h4 className={styles.footer_col_h4}>Clientes</h4>
                         <ul className={styles.footer_col_ul}>
                             <li className={styles.footer_col_ul_li}>
-                                <Link href="/">
+                                <Link href={`${globals.direction}/errores`}>
                                     <a className={styles.footer_col_ul_a}>informar un error</a>
                                 </Link>
                             </li>
                             <li className={styles.footer_col_ul_li}>
-                                <Link href="/">
+                                <Link href={`${globals.direction}/bajas`}>
                                     <a className={styles.footer_col_ul_a}>dar de baja el servicio</a>
                                 </Link>
                             </li>
                             <li className={styles.footer_col_ul_li}>
-                                <Link href="/">
+                                <Link href={`${globals.direction}/publicidad`}>
                                     <a className={styles.footer_col_ul_a}>anunciar página</a>
                                 </Link>
                             </li>
                             <li className={styles.footer_col_ul_li}>
-                                <Link href="/">
+                                <Link href={`${globals.direction}/mantenimiento`}>
                                     <a className={styles.footer_col_ul_a}>mejorar página</a>
                                 </Link>
                             </li>
@@ -88,21 +89,18 @@ export default function Footer() {
                     <div className={styles.footer_col}>
                         <h4 className={styles.footer_col_h4}>Siganos</h4>
                         <div className={styles.social_links}>
-                            <Link href="/">
-                                <a className={styles.footer_col_ul_a}>Facebook</a>
+                            <Link href={`${globals.contact.facebook}`}>
+                                <a target="_BLANK" className={styles.footer_col_ul_a}>Facebook</a>
                             </Link>
-                   
+
                             <Link href="/">
                                 <a className={styles.footer_col_ul_a}>Instagram</a>
                             </Link>
-                           
-                            <Link href="/">
-                                <a className={styles.footer_col_ul_a}>WhatsApp</a>
+
+                            <Link href={`${globals.contact.whatsappLink}`}>
+                                <a target="_BLANK" className={styles.footer_col_ul_a}>WhatsApp</a>
                             </Link>
                                 
-                            <Link href="/">
-                                <a className={styles.footer_col_ul_a}>Twitter</a>
-                            </Link>
                         </div>
                     </div>
                 </div>

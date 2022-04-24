@@ -106,6 +106,16 @@ export default function Footer() {
                 </div>
             </div>
             </div>
+
+            <div className={styles.signature_container}>
+                <Link href="https://creacion-pagina-web.vercel.app">
+                        <a target="_BLANK" className={styles.signature_content}>
+                            <span className={styles.signature_name}>Sitio web creado por</span>
+                            <Image src="/favicon.ico" width={30} height={30} alt="diseño web"></Image>
+                        </a>
+                </Link>
+
+            </div>
         </footer>
         
 

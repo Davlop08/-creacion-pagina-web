@@ -107,3 +107,24 @@
         height: 240px;
     }
 }
+
+/* -------------------------------------------------------------------------------------- */
+
+.signature_container{
+    width: 100%;
+}
+
+.signature_content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 20px;
+    width: max-content;
+    margin: 0 auto;
+}
+
+.signature_name{
+    margin-right: 5px;
+    color: var(--index_presentation_color);
+}

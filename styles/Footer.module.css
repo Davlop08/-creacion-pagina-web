@@ -114,17 +114,32 @@
     width: 100%;
 }
 
+
+.signature{
+    display: flex;
+    flex-direction: row;
+    width: max-content;
+    margin: 0 auto;
+    height: max-content;
+    padding-bottom: 10px;
+}
+
+.signature_name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 10px;
+    color: var(--index_presentation_color);
+    cursor: default;
+}
+
 .signature_content{
     display: flex;
     flex-direction: row;
     justify-content: center;
     text-align: center;
-    padding-bottom: 20px;
     width: max-content;
     margin: 0 auto;
+    height: 60px;
 }
 
-.signature_name{
-    margin-right: 5px;
-    color: var(--index_presentation_color);
-}

@@ -19,21 +19,21 @@ export default function Home() {
         <div className={styles.container_presentation}>
           <div className={styles.content_container}>
             <p className={styles.inicial_text}>
-              <strong>Impulsá tu negocio con presencia online</strong>
+              <strong>¿Querés hacer crecer tu negocio?</strong>
             </p>
             <h1 className={styles.main_primary_title}>
               <strong>
-                Diseño de paginas Web
+                Diseño Web y marketing digital
               </strong>
             </h1>
 
-            <h5 className={styles.main_secondary_title}>
-              Desarrollo Web Profesional y accequible 
-            </h5>
+            <h2 className={styles.main_secondary_title}>
+              ¡Generá clientes y vendé más!
+            </h2>
 
             <Link href={`${globals.direction}/paginas`}>
               <a className={styles.button_contact}>
-                Más información
+                asesorate gratis
               </a>
             </Link>
 

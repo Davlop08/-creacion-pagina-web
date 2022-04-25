@@ -18,7 +18,8 @@ export default function Header() {
             <nav className={styles.nav}>
                     <Link href={`${globals.direction}/`}>
                         <a className={styles.nav_link}>
-                            <span className={styles.logo}>Diseño Web AR</span>
+                            <Image className={styles.logo_img} src="/main_logo.svg" alt="diseño web" width={130} height={60}></Image>
+                            <h2 className={styles.logo}>Diseño Web AR</h2>
                         </a>
                     </Link>
 

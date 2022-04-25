@@ -124,6 +124,13 @@
     padding-bottom: 10px;
 }
 
+@media (max-width:430px){
+    .signature{
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
 .signature_name{
     display: flex;
     flex-direction: column;

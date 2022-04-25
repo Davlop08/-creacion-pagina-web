@@ -1,0 +1,26 @@
+.entry_container{
+    width: 100%;
+    margin-top: 80px;
+}
+
+.entry_content{
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.entry_title{
+    color: var(--header_hover_color);
+    font-size: 3rem;
+}
+
+.entry_description{
+    color: var(--header_logo_color);
+    font-size: 1.5rem;
+}
+
+@media (max-width: 864px){
+    .entry_container{
+        margin-top: 60px;
+    }
+}

@@ -31,13 +31,19 @@
     color: var(--index_presentation_color);
     text-align: center;
 }
+.inicial_text strong{
+    font-weight: 100;
+}
 
 .main_primary_title{
     padding: 20px 0;
     font-size: 3em;
-    font-weight: 1000;
     color: var(--index_presentation_color);
     text-align: center;
+}
+
+.main_primary_title strong{
+    font-weight: 100;
 }
 
 .main_secondary_title{
@@ -45,6 +51,7 @@
     color: var(--index_presentation_color);
     font-size: 1.3em;
     text-align: center;
+    font-weight: 100;
 }
 
 .button_contact{
@@ -53,7 +60,7 @@
     padding: 20px 40px;
     border: 2px solid white;
     border-radius: 10px;
-    font-weight: bold;
+    font-weight: 100;
     color: var(--index_presentation_color);
     transition: all .1s ease;
     text-align: center;

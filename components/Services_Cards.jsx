@@ -94,9 +94,11 @@ export default function Services_Cards() {
                     <div className={styles.experience + ' ' + styles.experience_4}>
                     <h4 className={styles.experience_title_4}>Paquetes</h4>
                     <div className={styles.experience_description}>
+                        <p>
                         Paquetes personalizados o estadar con sitio web incluido, para que empieces tu negocio online con todo lo necesario
                         sin que tengas que preocuparte por administrar la publicidad, el mantenimiento ni los cambios
                         que haya que hacer en tu sitio
+                        </p>
                     </div>
                     </div>
 

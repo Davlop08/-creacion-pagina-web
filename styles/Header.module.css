@@ -51,13 +51,13 @@
     font-size: 18px;
     font-weight: 600;
     margin: 0 10px;
-    line-height: 80px;
+    /* line-height: 80px; */
     text-transform: uppercase;
     width: max-content;
 }
 
 .nav_menu_link{
-    padding: 8px 12px;
+    padding: 0 12px;
     border-radius: 10%;
     transition: .1s ease;
     font-weight: 100;
@@ -67,6 +67,10 @@
     color: var(--header_hover_color);
     box-shadow: 0px 4px 0 var(--header_hover_alpha);
     border-radius: none;
+}
+
+.nav_link:hover{
+    color: var(--header_hover_color);
 }
 
 .toggle{

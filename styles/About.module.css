@@ -10,11 +10,13 @@
 }
 
 .entry_title{
+    padding: 20px 0 20px 0;
     color: var(--header_hover_color);
     font-size: 3rem;
 }
 
 .entry_description{
+    padding: 0 15px 0 15px;
     color: var(--header_logo_color);
     font-size: 1.5rem;
 }

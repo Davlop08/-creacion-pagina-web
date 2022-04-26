@@ -32,7 +32,8 @@ export default function Services_Cards() {
                     <Link href={`${globals.direction}/paginas`}>
                     <a className={styles.pages_radius}>
                         <div className={styles.empty + ' ' + styles.empty_1}>
-                        <Image src="/imagenes/paginas.svg" height={250} width={250} alt="imagen"/>
+                        <Image placeholder="blur" blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNknvW/HgAEYQIdyMuPlgAAAABJRU5ErkJggg==" 
+                        priority={1} src="/imagenes/paginas.svg" height={250} width={250} alt="diseño de página web adaptada a varios dispositivos"/>
                         <div className={styles.card_info}>
                             <h5>Desde {globals.pagesPrices.landing}</h5>
                             <p>Ver más</p>                  
@@ -57,7 +58,8 @@ export default function Services_Cards() {
                     <Link href={`${globals.direction}/publicidad`}>
                         <a className={styles.pages_radius}>
                         <div className={styles.empty + ' ' + styles.empty_2}>
-                            <Image src="/imagenes/google-icon.svg" height={250} width={250} alt="imagen"/>
+                            <Image priority={1} placeholder="blur" blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNknvW/HgAEYQIdyMuPlgAAAABJRU5ErkJggg=="
+                            src="/imagenes/google-icon.svg" height={250} width={250} alt="imagen"/>
                             <div className={styles.card_info}>
                             <h5>Desde {globals.publicity} + inversión
                             </h5>
@@ -81,7 +83,8 @@ export default function Services_Cards() {
                     <Link href={`${globals.direction}/mantenimiento`}>
                         <a className={styles.pages_radius}>
                         <div className={styles.empty + ' ' + styles.empty_3}>
-                            <Image src="/imagenes/mantenimiento_web_2.svg" height={250} width={250} alt="imagen"/>
+                            <Image priority={1} placeholder="blur" blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNknvW/HgAEYQIdyMuPlgAAAABJRU5ErkJggg=="
+                            src="/imagenes/mantenimiento_web_2.svg" height={250} width={250} alt="imagen"/>
                             <div className={styles.card_info}>
                             <h5>Desde {globals.plans.basic}</h5>
                             <p>Ver más</p>                  
@@ -105,7 +108,8 @@ export default function Services_Cards() {
                     <Link href={`${globals.direction}/paquetes`}>
                         <a className={styles.pages_radius}>
                         <div className={styles.empty + ' ' + styles.empty_4}>
-                            <Image src="/imagenes/paquetes.svg" height={250} width={250} alt="imagen"/>
+                            <Image priority={1} placeholder="blur" blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNknvW/HgAEYQIdyMuPlgAAAABJRU5ErkJggg=="
+                            src="/imagenes/paquetes.svg" height={250} width={250} alt="imagen"/>
                             <div className={styles.card_info}>
                             <h5>Desde {globals.packs.starter}</h5>
                             <p>Ver más</p>                  

@@ -3,10 +3,14 @@ import styles from "../../styles/Prices.module.css"
 import Layout from "../../components/Layout"
 import Services_Cards from "../../components/Services_Cards"
 import ContactForm from "../../components/ContactForm"
+import HeadMeta from "../../components/HeadMeta"
 
 export default function index() {
     return (
         <Fragment>
+            
+            <HeadMeta title="Precio Diseño Web En Argentina | Diseño Web AR" 
+            metaDescription="Páginas web desde AR$9.900 por única vez, sin costos ocultos y adaptadas a tus necesidades, no dudes en hacer crecer tu negocio!"></HeadMeta>
 
             <Layout>
                 <section className={styles.entry_section}>

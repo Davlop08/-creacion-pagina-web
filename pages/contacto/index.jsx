@@ -9,8 +9,8 @@ import ContactForm from "../../components/ContactForm"
 export default function index() {
     return (
         <Fragment>
-            <HeadMeta title="Contacto | Lorem Soluciones Web" metaDescription="Contactanos para obtener una atención personalizada
-            sobre diseño web, publicidad en Google, mantenimiento web y paquetes"/>
+            <HeadMeta title="Contacto Diseño Web y Marketing Digital | Diseño Web AR" 
+            metaDescription="Contactanos para obtener una atención personalizada sobre diseño web, publicidad en Google, mantenimiento web y paquetes completos"/>
 
             <Layout>
                 <section className={styles.entry_container}>

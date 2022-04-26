@@ -13,8 +13,7 @@ export default function tiendaBasicaPlus() {
     return (
         <Fragment>
 
-            <HeadMeta title="Diseño Tienda Online Básica + | Lorem Soluciones Web" metaDescription="Descubrí el precio de la tienda online
-            basica +, la cuál te permite tener un carrito de compras y una variedad más amplia de productos"/>
+            <HeadMeta title="Diseño Tienda Online Básica + | Diseño Web AR" metaDescription="Descubrí el precio de la tienda online basica +, la cuál te permite tener un carrito de compras y una variedad más amplia de productos"/>
 
             <Layout>
                 <section className={styles.entry_container}>

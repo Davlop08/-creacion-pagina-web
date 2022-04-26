@@ -10,7 +10,8 @@ import globals from "../../globals"
 export default function index() {
     return (
         <Fragment>
-            <HeadMeta title="Paquetes Web | Lorem soluciones web"/>
+            <HeadMeta title="Paquetes páginas Web | Diseño Web AR" 
+            metaDescription="Conocé los paquetes estandar y a medida para que obtengas tu página web, administración del sitio y publicidad en Googlem para que empieces a potenciar tu negocio"/>
 
             <Layout>
                 <section className={styles.entry_container}>

@@ -13,8 +13,7 @@ export default function tiendaRecomendada() {
     return (
         <Fragment>
 
-            <HeadMeta title="Diseño Tienda Online Recomendada | Lorem Soluciones Web" metaDescription="Conocé el precio de la tienda
-            online recomendada, con carrito, control de stock y alta de clientes, ideal si manejás una amplia variedad de productos"/>
+            <HeadMeta title="Diseño Tienda Online Recomendada | Diseño Web AR" metaDescription="Conocé el precio de la tienda online recomendada, con carrito, control de stock y alta de clientes, ideal si manejás una amplia variedad de productos"/>
 
             <Layout>
                 <section className={styles.entry_container}>

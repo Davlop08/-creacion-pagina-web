@@ -10,9 +10,8 @@ import globals from "../../globals"
 export default function index() {
     return (
         <Fragment>
-            <HeadMeta title="Paginas Web | Lorem Soluciones Web" metaDescription="Conocé los precios de las distintas 
-            páginas web que tenemos para ofrecerte. Asesoramiento gratuito para que obtengas la que mejor se adapte a tus
-            necesidades"/>
+            <HeadMeta title="Paginas Web Y Tiendas Online | Diseño Web AR" 
+            metaDescription="Conocé los precios de las distintas páginas web y tiendas online que tenemos para ofrecerte. Asesoramiento gratuito para que obtengas la que mejor se adapte a tus necesidades"/>
 
             <Layout>
                 <section className={styles.entry_container}>

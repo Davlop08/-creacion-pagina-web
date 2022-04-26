@@ -11,7 +11,8 @@ export default function index() {
     return (
         <Fragment>
 
-            <HeadMeta title="Publicidad Web | Lorem Soluciones Web"/>
+            <HeadMeta title="Publicidad En Google | Diseño Web AR" 
+            metaDescription="Publicitá tu página web en Google y obtené campañas publicitarias eficaces que generan nuevos clientes, y por ende, más ventas"/>
 
             <Layout>
                 <section className={styles.entry_container}>

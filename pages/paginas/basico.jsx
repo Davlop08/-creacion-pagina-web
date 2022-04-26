@@ -13,8 +13,7 @@ export default function basico() {
     return (
         <Fragment>
 
-            <HeadMeta title="Diseño Sitio Web Básico | Lorem Soluciones Web" metaDescription="Descubrí el precio de una página web básica
-            y sus características"/>
+            <HeadMeta title="Diseño Sitio Web Básico | Diseño Web AR" metaDescription="Descubrí el precio de una página web básica y sus características"/>
 
             <Layout>
                 <section className={styles.entry_container}>

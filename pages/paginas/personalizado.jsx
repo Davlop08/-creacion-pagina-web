@@ -12,8 +12,7 @@ export default function personalizado() {
     return (
         <Fragment>
 
-            <HeadMeta title="Diseño Web Personalizado | Lorem Soluciones Web" metaDescription="El sitio web personalizado te permite tener
-            un sitio completamente único y personalizado a tu medida"/>
+            <HeadMeta title="Diseño Web Personalizado | Diseño Web AR" metaDescription="El diseño web personalizado te permite tener un sitio completamente único y a tu medida"/>
 
             <Layout>
                 <section className={styles.entry_container}>

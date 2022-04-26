@@ -10,7 +10,8 @@ import globals from "../../globals"
 export default function index() {
     return (
         <Fragment>
-            <HeadMeta title="Mantenimiento Web | Lorem Soluciones Web"/>
+            <HeadMeta title="Mantenimiento Web | Diseño web AR"
+            metaDescription="Descubrí como podés mejorar tu página web y cómo podemos administrarla por vos, para que te posiciones mejor en la web y no tengas tantas preocupaciones"/>
 
             <Layout>
 

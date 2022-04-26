@@ -13,8 +13,7 @@ export default function basicoPlus() {
     return (
         <Fragment>
 
-            <HeadMeta title="Diseño Sitio Web Básico + | Lorem Soluciones Web" metaDescription="Descubrí el precio del diseño web
-            de hasta 6 páginas"/>
+            <HeadMeta title="Diseño Sitio Web Básico + | Diseño Web AR" metaDescription="Descubrí el precio del diseño web básico de hasta 6 páginas"/>
 
             <Layout>
                 <section className={styles.entry_container}>

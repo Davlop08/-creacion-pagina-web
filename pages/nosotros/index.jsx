@@ -8,8 +8,8 @@ export default function index() {
     return (
         <Fragment>
 
-            <HeadMeta title="Nosotros | Diseño web AR" 
-            metaDescription="conozca nuestra agencia de diseño web y marketing digital y nuestra principal misión: Impulsar tu negocio">
+            <HeadMeta title="Nosotros | Diseño Web AR" 
+            metaDescription="Conozca nuestra agencia de diseño web y marketing digital y nuestra principal misión: Impulsar tu negocio">
 
             </HeadMeta>
 

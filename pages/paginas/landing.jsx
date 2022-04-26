@@ -15,9 +15,8 @@ export default function landing() {
         <Fragment>
 
             <HeadMeta 
-            title="Landing Page | Lorem Soluciones Web" 
-            metaDescription="Conocé el precio de una landing page profesional, la opción ideal si querés convertir visitantes en
-            clientes con una sola página web. Diseño web profesional"
+            title="Landing Page Al Mejor Precio | Diseño Web AR" 
+            metaDescription="Conocé el precio de una landing page profesional, la opción ideal si querés convertir visitantes en clientes con una sola página web. Diseño web profesional"
             />
 
             <Layout>

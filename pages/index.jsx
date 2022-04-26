@@ -13,7 +13,8 @@ export default function Home() {
 
     <Fragment>
 
-      <HeadMeta title="Diseño Web | Lorem Soluciones Web"/>
+      <HeadMeta title="Agencia De Diseño Web Y Marketing Digital | Diseño Web AR"
+      metaDescription= "conseguí nuevos clientes y generá más ventas, te ofrecemos desde diseño web hasta publicidad y mantenimientoweb al mejor precio del mercado"/>
 
       <Layout>
         <div className={styles.container_presentation}>

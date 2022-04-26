@@ -13,8 +13,7 @@ export default function tiendaBasica() {
     return (
         <Fragment>
 
-            <HeadMeta title="Diseño Tienda Online Básica | Lorem Soluciones Web" metaDescription="Con la tienda online
-            básica vas a poder empezar a vender tus productos de una manera rápida y sencilla"/>
+            <HeadMeta title="Diseño Tienda Online Básica | Diseño Web AR" metaDescription="Con la tienda online básica vas a poder empezar a vender tus productos de una manera rápida y sencilla"/>
 
             <Layout>
                 <section className={styles.entry_container}>

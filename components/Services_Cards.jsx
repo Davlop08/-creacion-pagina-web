@@ -23,7 +23,7 @@ export default function Services_Cards() {
                     <div className={styles.experience_description}>
                         <p>Sitios que se adaptan a tus necesidades, ya sea que necesites un Portfolio, una Landing Page, o 
                         sitios más complejos con varias secciones como un sitio institucional, Tienda Online o 
-                        sitios completamente a medida, en Lorem Designs tenemos modelos únicos y completamente personalizables
+                        sitios completamente a medida, en Diseño Web AR tenemos modelos únicos y completamente personalizables
                         de los que podes elegir!
                         </p>
                     </div>

@@ -2,10 +2,13 @@ import styles from '../styles/Form.module.css'
 import {useForm} from 'react-hook-form'
 import { useState } from 'react';
 import {AiOutlineLoading3Quarters} from "react-icons/ai"
+import {FaThumbsUp, FaExclamationTriangle} from "react-icons/fa"
 
 export default function ContactForm() {
 
     const [sendingLoader, setSendingLoader] = useState("ENVIAR")
+
+    const [statusIcon, setStatusIcon] = useState("")
 
     const [statusMessage, setStatusMessage] = useState("")
 
@@ -31,6 +34,7 @@ export default function ContactForm() {
             )
 
             if(res.status === 200){
+                setStatusIcon(<FaThumbsUp className={styles.succeed_icon}/>)
                 setStatusMessage("¡Listo!, te contactaremos a la brevedad")
                 setMessage(styles.succeed_send_span)
                 reset(e.target.value)
@@ -40,7 +44,8 @@ export default function ContactForm() {
                 }, 20000)
             }
             else{
-                setStatusMessage("Ocurrió un problema durante el envío, por favor, intentá de nuevo o escribinos por WhatsApp")
+                setStatusIcon(<FaExclamationTriangle className={styles.error_icon}/>)
+                setStatusMessage("No se pudo enviar tu mensaje, por favor, intentá de nuevo o escribinos por WhatsApp")
                 setMessage(styles.error_send_span)
                 setTimeout(()=>{
                     setMessage(styles.standby_send_span)
@@ -110,6 +115,7 @@ export default function ContactForm() {
             </div>
 
             <span className={message}>
+                {statusIcon}
                 {statusMessage}
             </span>
 

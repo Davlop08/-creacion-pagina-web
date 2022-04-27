@@ -1,12 +1,23 @@
 import styles from '../styles/Form.module.css'
 import {useForm} from 'react-hook-form'
+import { useState } from 'react';
+import {AiOutlineLoading3Quarters} from "react-icons/ai"
 
 export default function ContactForm() {
 
+    const [sendingLoader, setSendingLoader] = useState("ENVIAR")
+
+    const [statusMessage, setStatusMessage] = useState("")
+
+    const [message, setMessage]= useState(undefined)
+
     const {register, formState:{errors}, handleSubmit, reset}= useForm();
+
 
     const onSubmit = async (data, e)=>{
         e.preventDefault()
+        
+        setSendingLoader(<AiOutlineLoading3Quarters className={styles.sending_loading}/>)
 
         try {
 
@@ -19,13 +30,32 @@ export default function ContactForm() {
             }
             )
 
-            reset(e.target.value)
+            if(res.status === 200){
+                setStatusMessage("¡Listo!, te contactaremos a la brevedad")
+                setMessage(styles.succeed_send_span)
+                reset(e.target.value)
+                setTimeout(()=>{
+                    setMessage(styles.standby_send_span)
+                    setStatusMessage("")
+                }, 20000)
+            }
+            else{
+                setStatusMessage("Ocurrió un problema durante el envío, por favor, intentá de nuevo o escribinos por WhatsApp")
+                setMessage(styles.error_send_span)
+                setTimeout(()=>{
+                    setMessage(styles.standby_send_span)
+                    setStatusMessage("")
+                }, 20000)
+            }
 
 
-        } catch (error) {
+        } catch (err) {
             console.log(err)
         }
 
+        finally{
+            setSendingLoader("ENVIAR")
+        }
     }
 
 
@@ -79,8 +109,12 @@ export default function ContactForm() {
 
             </div>
 
+            <span className={message}>
+                {statusMessage}
+            </span>
+
             <div>
-                <button type="submit" className={styles.form_submit}>ENVIAR</button>
+                <button type="submit" className={styles.form_submit}>{sendingLoader}</button>
             </div>
             
             <label className={styles.labels}>Los campos con * son obligatorios</label>

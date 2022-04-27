@@ -7,10 +7,27 @@ export default function ContactForm() {
 
     const {register, formState:{errors}, handleSubmit, reset}= useForm();
 
-    const onSubmit = (data, event)=>{
-        event.preventDefault()
-        console.log(data)
-        reset(event.target.value)
+    const onSubmit = async (data, e)=>{
+        e.preventDefault()
+
+        try {
+            const res = await fetch("/api/contact",{
+                method: "POST",
+                headers: {
+                    "Content-Type" : "application/json"
+                },
+                body: JSON.stringify(data)
+            }
+            )
+
+            console.log(data)
+            reset(e.target.value)
+
+
+        } catch (error) {
+            console.log(err)
+        }
+
     }
 
 

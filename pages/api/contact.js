@@ -17,7 +17,7 @@ export default async function handler(req, res) {
     try {
         await transporter.sendMail({
             from: email,
-            to: email,
+            to: process.env.SMTP_USER,
             subject: `${nombre} desde dwAR`,
             html: `<p>Nuevo mensaje desde Diseño Web AR</p><br>
             <p><strong>Email: </strong> ${email}</p><br>

@@ -1,7 +1,5 @@
 import styles from '../styles/Form.module.css'
 import {useForm} from 'react-hook-form'
-import { useState } from 'react';
-
 
 export default function ContactForm() {
 
@@ -11,6 +9,7 @@ export default function ContactForm() {
         e.preventDefault()
 
         try {
+
             const res = await fetch("/api/contact",{
                 method: "POST",
                 headers: {
@@ -20,7 +19,6 @@ export default function ContactForm() {
             }
             )
 
-            console.log(data)
             reset(e.target.value)
 
 
@@ -69,9 +67,16 @@ export default function ContactForm() {
             </div>
 
                 <label htmlFor="mensaje" className={styles.labels}>Mensaje</label>
-            <div className={styles.form_name_container} defaultValue=""  {...register('mensaje', 
-            {required:{value: false}})}>
-                <textarea className={styles.form_message} name="mensaje" cols="30" rows="10"></textarea>
+            <div className={styles.form_name_container} >
+                
+                <textarea className={styles.form_message} 
+                name="mensaje" 
+                cols="30" 
+                rows="10"
+                {...register('mensaje', 
+                {required:{value: false}})}>
+                </textarea>
+
             </div>
 
             <div>

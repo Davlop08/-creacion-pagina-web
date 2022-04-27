@@ -2,7 +2,14 @@ import nodemailer from "nodemailer"
 
 export default async function handler(req, res) {
 
-    const {nombre, email, numero, mensaje} = req.body
+    const {nombre, email, numero} = req.body
+    let {mensaje} = req.body
+
+    mensaje.trim()
+
+    if(mensaje === "" || mensaje === null || mensaje === undefined) mensaje = "No se agregó un mensaje"
+
+    console.log(nombre, email, numero, mensaje)
 
     const transporter = nodemailer.createTransport({
         host: "smtp.gmail.com",

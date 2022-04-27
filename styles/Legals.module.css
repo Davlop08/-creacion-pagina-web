@@ -64,3 +64,8 @@
 .marker{
     color: var(--header_hover_color);
 }
+
+.anchors{
+    color: red;
+    font-size: 20px;
+}

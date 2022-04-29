@@ -23,7 +23,7 @@ export default function Header() {
                         </a>
                     </Link>
 
-                    <button className={toggle, styles.toggle} aria-label="menú" onClick={setToggleCallback}>
+                    <button className={`toggle ${styles.toggle}`} aria-label="menú" onClick={setToggleCallback}>
                         <Image className={styles.toggle_img} src="/iconos/barras menu.png" width={30} height={30} alt="Menu"></Image>
                     </button>
                         

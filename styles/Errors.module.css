@@ -1,0 +1,44 @@
+.entry_container{
+    width: 100%;
+    margin-top: 80px;
+}
+
+@media (max-width: 864px){
+    .entry_container{
+        margin-top: 60px;
+    }
+}
+
+.entry_content_container{
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    padding-top: 40px;
+}
+
+.entry_content_title{
+    font-size: 3rem;
+    color: var(--header_hover_color);
+    padding-bottom: 20px;
+}
+
+.entry_content_description{
+    font-size: 1.5rem;
+    color: var(--header_logo_color);
+    padding: 0 10px 10px 10px;
+}
+
+/* --------------------------------------------------------------------------------------------- */
+
+.form_container{
+    margin-top: 40px;
+}
+
+.wa_link{
+    color: rgb(32, 179, 32);
+    font-style: italic;
+    font-size: 30px;
+}

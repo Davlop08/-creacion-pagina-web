@@ -8,20 +8,22 @@ export default function Index (){
 
     return(
         <Fragment>
-            <HeadMeta title="Reporte De Errores | Diseño Web AR" metaDescription=""></HeadMeta>
+            <HeadMeta title="Bajas | Diseño Web AR" metaDescription="Si necesitas dar de baja tu servicio prestado por nosotros, entrá y empezá el proceso"></HeadMeta>
 
             <Layout>
                 <section className={styles.entry_container}>
                     <div className={styles.entry_content_container}>
-                        <h1 className={styles.entry_content_title}>Informe de errores</h1>
+                        <h1 className={styles.entry_content_title}>Dar de baja el servicio</h1>
                         <p className={styles.entry_content_description}>
-                            ¿Tuviste algún problema? No te preocupes, dejanos tus datos a continuación y nos
-                            comunicaremos con vos a la brevedad para solucionarlo, pero, si lo preferís, podés escribirnos por 
-                            <a href="https://api.whatsapp.com/send?phone=5491162039196&text=Hola%2C%20estoy%20teniendo%20un%20problema" 
+                            Para realizar consultas, informar errores o darte de baja,
+                            comunicate al 
+                            <a href="https://api.whatsapp.com/send?phone=5491162039196&text=Hola%2C%20quiero%20darme%20de%20baja" 
                             target="_blank" 
                             rel="noopener noreferrer" 
-                            className={styles.wa_link}> WhatsApp. </a>Por favor indicanos el 
-                            motivo del problema con el mayor detalle posible con el fin de solucionarlo de una manera más eficaz.
+                            className={styles.wa_link}> WhatsApp, </a> o dejanos tus datos y nos comunicaremos con vos para
+                            gestionar tu solicitud. Recordá que si estás insatisfecho con el servicio, o tenés alguna queja o
+                            reclamo, detallalo en el mensaje, así podemos mejorar el servicio que te ofrecemos y lo pienses
+                            dos veces!
                         </p>
                     </div>
                 </section>

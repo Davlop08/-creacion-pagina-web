@@ -62,7 +62,7 @@ ul{
 }
 
 :root{
-  --header_back_color: rgb(255, 255, 255);
+  --header_back_color: rgb(246, 246, 246);
   --header_logo_color: rgb(100,100,100);
   --header_hover_color: rgb(3, 154, 255) ;
   --header_hover_alpha: rgba(3, 154, 255, 0.3);
@@ -70,7 +70,7 @@ ul{
 
   --footer_back_color: rgb(3, 154, 255);
   --footer_title_color: rgb(255,255,255);
-  --footer_separator_color: rgb(255,255,255);
+  --footer_separator_color: rgb(255, 255, 255);
   --footer_anchor_color: rgb(250,250,250);
 
 
@@ -83,5 +83,5 @@ ul{
   --index_form_back: rgb(255, 255, 255);
   
 
-  --body_background: rgb(255,255,255);
+  --body_background: rgb(255, 255, 255);
 }
